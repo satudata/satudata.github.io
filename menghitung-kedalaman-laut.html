@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menghitung Kedalaman Laut - QnA</title>
+    <meta name="description" content="Menghitung Kedalaman Laut, Rumus Menghitung Kedalaman Laut, , , , Agung Hadi Prasetyo, 2021-02-15T04:29:33.000000Z, 20, , , , , , 0, menghitung-kedalaman-laut, QnA" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Menghitung Kedalaman Laut - QnA" />
+    <meta property="og:description" content="Menghitung Kedalaman Laut, Rumus Menghitung Kedalaman Laut, , , , Agung Hadi Prasetyo, 2021-02-15T04:29:33.000000Z, 20, , , , , , 0, menghitung-kedalaman-laut, QnA" />
+    <meta property="og:site_name" content="QnA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Menghitung Kedalaman Laut - QnA" />
+    <meta name="twitter:description" content="Menghitung Kedalaman Laut, Rumus Menghitung Kedalaman Laut, , , , Agung Hadi Prasetyo, 2021-02-15T04:29:33.000000Z, 20, , , , , , 0, menghitung-kedalaman-laut, QnA" />
+    <link rel='stylesheet' id='generate-style-css' href='https://satudata.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://satudata.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://satudata.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://satudata.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://satudata.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://satudata.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://satudata.github.io">Home</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://satudata.github.io" rel="home"> QnA</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Menghitung Kedalaman Laut</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">Regepjg</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Menghitung+Kedalaman+Laut" alt="Menghitung Kedalaman Laut">
+                    </div>
+                    <p></p>
+                    <p>Menghitung kedalam laut</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menghitung-kedalam-laut">1.
+                                            Menghitung kedalam laut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-menghitung-kedalaman-laut">2.
+                                            cara menghitung kedalaman laut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-cara-menghitung-ke-dalaman-laut">3.
+                                            bagaimana cara menghitung ke dalaman laut ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-menghitung-kedalaman-laut-jika-besaran-lain-diketahui">4.
+                                            cara menghitung kedalaman laut jika besaran lain diketahui</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kapal-laut-ketika-di-tengah-laut-membunyikan-sebuah-sumber-bunyi-untuk-mengetahui-ke-dalaman-laut-jika-kapal-laut-tersebut-menangkap-kembali-gelombang-pada-28-detik-kemudian-dan-diketahui-kedalaman">5.
+                                            kapal laut ketika di tengah laut membunyikan sebuah sumber bunyi untuk  mengetahui ke dalaman laut jika kapal laut tersebut menangkap kembali gelombang pada 2,8 detik kemudian dan diketahui  kedalaman laut 2.100 meter , hitunglah cepat ramba bunyi di dalam</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-rumus-menghitung-kedalaman-laut">6.
+                                            Jelaskan rumus menghitung kedalaman laut !!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kapal-laut-ketika-berada-dalam-tengah-laut-membunyikan-sebuah-sumber-bunyi-untuk-mengetahui-kedalaman-laut-jika-kapal-laut-tersebut-menangkap-kembali-gelombang-pada-28-detik-kemudian-dan-di-ketahui">7.
+                                            kapal laut ketika berada dalam tengah laut membunyikan sebuah sumber bunyi untuk mengetahui kedalaman laut . jika kapal laut tersebut menangkap kembali gelombang pada 2,8 detik kemudian dan di ketahui kedalaman laut 2,100 meter , hitunglah cepat lambat bunyi dalam laut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#getaran-isolator-pada-kapal-laut-diterima-kembali-setelah-04-skop-jika-cepat-rambat-bunyi-didalam-laut-1300-ms-hitunglah-berapakah-kedalaman-lautthankss">8.
+                                            getaran isolator pada kapal laut diterima kembali setelah 0,4 skop. Jika cepat rambat bunyi didalam laut 1300 m/s Hitunglah berapakah kedalaman laut!
+thankss</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menghitung-kedalaman-laut-jika-diketahui-waktu-dan-banyaknya-gelombang-yang-terbentuk%e2%80%8b">9.
+                                            menghitung kedalaman laut jika diketahui waktu dan banyaknya gelombang yang terbentuk​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kapal-laut-berada-di-tengah-laut-membunyikan-sebuah-sumber-bunyi-untuk-mengetahui-kedalaman-laut-jika-kapal-laut-tersebut-menangkap-kembali-gelombang-pada-28-detik-kemudian-dan-diketahui-kedalaman-la">10.
+                                            kapal laut berada di tengah laut membunyikan sebuah sumber bunyi untuk mengetahui kedalaman laut jika kapal laut tersebut menangkap kembali gelombang pada 2,8 detik kemudian dan diketahui kedalaman laut 2.100 meter hitunglah cepat rambat bunyi di dalam laut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#untuk-menguku-kedalam-laut-gelombang-bunyi-di-timbulkan-tegak-lurus-kedalam-laut-jika-pantulan-bunyi-gema-diterima-setelah-2-sekan-sedang-cepat-rambat-bunyi-dalam-air-1400ms-hitunglah-kedalam-laut">11.
+                                            Untuk menguku kedalam laut, gelombang bunyi di timbulkan tegak lurus kedalam laut jika pantulan bunyi gema diterima setelah 2 sekan, sedang cepat rambat bunyi dalam air 1400m/s hitunglah kedalam laut tersebut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menghitung-kedalaman-laut-berdasarkan-gelombang-ultrasonik%e2%80%8b">12.
+                                            menghitung kedalaman laut berdasarkan gelombang ultrasonik​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#rumus-untuk-menghitung-kedalaman-laut">13.
+                                            rumus untuk menghitung kedalaman laut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#hitunglah-tekanan-dasar-laut-dengan-kedalaman-100">14.
+                                            hitunglah tekanan dasar laut dengan kedalaman 100</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-menghitung-kedalaman-laut">15.
+                                            cara menghitung kedalaman laut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-kapal-laut-berupaya-untuk-mengukur-kedalam-laut-dengan-menembakan-bunyi-kedalaman-laut-dengan-kecepatan-1500-ms-setelah-3-sekon-sinyal-bunyi-di-terima-oleh-detektor-hitung-berapa-dalamnya-laut">16.
+                                            sebuah kapal laut berupaya untuk mengukur kedalam laut dengan menembakan bunyi kedalaman laut dengan kecepatan 1500 m/s setelah 3 sekon sinyal bunyi di terima oleh detektor hitung berapa dalamnya laut ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#rumus-menghitung-kedalaman-laut-dengan-memanfaatkan-bunyi-pantul">17.
+                                            rumus menghitung kedalaman laut dengan memanfaatkan bunyi pantul</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#paparan-adalah-zona-laut-terhitung-dari-garis-surut-terendah-sampai-pada-kedalaman-%e2%80%8b">18.
+                                            paparan adalah zona laut terhitung dari garis surut terendah sampai pada kedalaman ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-menghitung-kedalaman-laut">19.
+                                            cara menghitung kedalaman laut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-pelaut-mengukur-kedalaman-laut-dari-atas-kepalanya-dengan-mengirim-gelombang-elektromagnetik-sampai-dasar-laut-ternyata-gelombang-elektromagnetik-itu-kembali-setelah-siang-waktu-5-10-pangkat">20.
+                                            Seorang pelaut mengukur kedalaman laut dari atas kepalanya dengan mengirim gelombang elektromagnetik sampai dasar laut ternyata gelombang elektromagnetik itu kembali setelah siang waktu 5.10 pangkat -6 sekon hitunglah kedalaman laut tersebut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-sonar-dipancarkan-dari-kapal-untuk-mengukur-kedalaman-laut-diketahui-cepat-rambatan-bunyi-dalam-laut-1500-ms-jika-bunyi-terdengar-setelah-2-sekon-hitung-kedalaman-laut-tersebut">21.
+                                            sebuah sonar dipancarkan dari kapal untuk mengukur kedalaman laut. diketahui cepat rambatan bunyi dalam laut 1500 m/s. jika bunyi terdengar setelah 2 sekon, hitung kedalaman laut tersebut.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-gelombang-ditembakkan-ke-dasar-laut-untuk-mengukur-kedalaman-laut-jika-kecepatan-gelombang-tersebut-500-ms9-s-kemudian-diterima-pantulannya-hitunglah-kedalaman-laut-tersebut-%e2%80%8b">22.
+                                            Sebuah gelombang ditembakkan ke dasar laut untuk mengukur kedalaman laut. Jika kecepatan gelombang tersebut 500 m/s,9 s kemudian diterima pantulannya. Hitunglah kedalaman laut tersebut.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-menghitung-kedalaman-laut-dan-panjang-gelombang-bunyi">23.
+                                            Cara menghitung kedalaman laut dan panjang gelombang bunyi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menghitung-kedalaman-laut-berdasarkan-cepat-rambat-bunyi%e2%80%8b">24.
+                                            menghitung kedalaman laut berdasarkan cepat rambat bunyi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#rumus-menghitung-jarak-kedalaman-laut%e2%80%8b">25.
+                                            rumus menghitung jarak kedalaman laut​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-menghitung-dalamnya-laut">26.
+                                            cara menghitung dalamnya laut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-menghitung-kedalaman-laut-dengan-menggunakan-pantulan-gelombang">27.
+                                            cara menghitung kedalaman laut dengan menggunakan pantulan gelombang</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pantulan-pertama-gelombang-bunyi-ultrasonik-diterima-selama-1-menit-setelah-gelombang-tersebut-ditambahkan-kedalam-laut-jika-cepat-rambat-bunyi-di-laut-adalah-3600-ms-maka-hitunglah-kedalaman-laut">28.
+                                            Pantulan pertama gelombang bunyi ultrasonik diterima selama 1 menit setelah gelombang tersebut ditambahkan kedalam laut. Jika cepat rambat bunyi di laut adalah 3600 m/s, maka hitunglah kedalaman laut tersebut !​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-gelombang-ditembakan-ke-dasar-laut-untuk-mengukur-kedalaman-laut-jika-kecepatan-gelombang-tersebut-500ms-9s-kemudian-diterima-pantulannya-hitunglah-kedalaman-laut-tersebut">29.
+                                            Sebuah gelombang ditembakan ke dasar laut untuk mengukur kedalaman laut. jika kecepatan gelombang tersebut 500m/s, 9s kemudian diterima pantulannya. hitunglah kedalaman laut tersebut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#penerapan-bunyi-ntuk-menghitung-kedalaman-laut">30.
+                                            penerapan bunyi ntuk menghitung kedalaman laut</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="menghitung-kedalam-laut">
+                            1. Menghitung kedalam laut</h2><br />
+                        <p>dengan cara menggunakan alat gema suara yaitu ECHO SOUNDER dan HIDROFON</p><p></p><p>Semoga membantu.</p><br />
+                                            <h2 class="ez-toc-section" id="cara-menghitung-kedalaman-laut">
+                            2. cara menghitung kedalaman laut</h2><br />
+                        jawabannya adalah dengan metode gema suara<br />tolong terima kasih ya   Cepat Rambat Bunyi pada Beberapa Medium<br /><br />rumus menghitung kedalaman laut = S = v . t /2<br /><br />manusia memanfaatkan gema yang dipantulkan oleh dasar laut untuk mengukur kedalaman laut dengan menggunakan sistem sonar. Sonar merupakan alat untuk mendeteksi sesuatu di dalam air dengan menggunakan gelombang bunyi blip ke dalam air. Ketika bunyi ini mengenai suatu benda di dalam air, bunyi tersebut akan dipantulkan kembali dalam bentuk gema. Sonar juga dapat digunakan untuk mencari bangkai kapal yang karam.<br /><br /><br /><br /><br />#semogamembantu#<br /><br /><br />#maaf kalau salah namanya aja manusia pasti ada salahnya, harap dimaklumi#<br />
+                                            <h2 class="ez-toc-section" id="bagaimana-cara-menghitung-ke-dalaman-laut">
+                            3. bagaimana cara menghitung ke dalaman laut ?</h2><br />
+                        <strong>CARA MENGUKUR KEDALAMAN LAUT</strong>Untuk mengetahui kedalaman laut digunakan dua metode yaitu:<strong></strong><strong>a. </strong><strong>BATU DUGA</strong>Yaitu sistem pengukuran dasar laut menggunakan kabel yang dilengkapi bandul pemberat yang massanya berkisar 25-75 kg.<strong>Gambar metode batu duga</strong>:<strong>b. </strong><strong>GEMA SUARA</strong>Yaitu metode pengukuran dasar laut dengan menggunakan alat gema suara yaitu <strong>ECHO SOUNDER</strong> dan <strong>HIDROFON</strong>. Echo Sounder adalah alat pengirim suara,  sedangkan hidrofon adalah penerima gema suara.Dasar perhitungan kedalaman laut dengan gema adalah cepat rambat bunyi dalam air yaitu 1500 m/detik.Rumus yang digunakan untuk mengukur kedalaman laut:X =   t X v2X = kedalaman laut (meter)t = waktu yang dibutuhkan untuk menerima kembali gema suara setelah ditembakkan echo   sounderv = cepat rambat suara dalam airmenggunakan globang bunyi. rumusnya d = v.t/2<br />
+                                            <h2 class="ez-toc-section" id="cara-menghitung-kedalaman-laut-jika-besaran-lain-diketahui">
+                            4. cara menghitung kedalaman laut jika besaran lain diketahui</h2><br />
+                        rumus kedalaman laut<br /><br />S : v.t/2<p>S = v x t<br />     ⁻⁻⁻⁻⁻⁻⁻<br />         2<br /><br />Dimana,<br />S = Kedalaman laut (meter)</p>
+<p>t = Waktu yang dibutuhkan untuk menerima kembali pantulan suara setelah        ditembakkan kedasar laut<br /></p>
+<p>v = Cepat rambat dalam air</p><br /><br />
+                                            <h2 class="ez-toc-section" id="kapal-laut-ketika-di-tengah-laut-membunyikan-sebuah-sumber-bunyi-untuk-mengetahui-ke-dalaman-laut-jika-kapal-laut-tersebut-menangkap-kembali-gelombang-pada-28-detik-kemudian-dan-diketahui-kedalaman">
+                            5. kapal laut ketika di tengah laut membunyikan sebuah sumber bunyi untuk  mengetahui ke dalaman laut jika kapal laut tersebut menangkap kembali gelombang pada 2,8 detik kemudian dan diketahui  kedalaman laut 2.100 meter , hitunglah cepat ramba bunyi di dalam</h2><br />
+                        rumus<br /><br />= s = v.t/2<br /><br />dengan, s = jarak/kedalaman(m), v = cepat rambat ( m/s ), t = waktu (s)<br /><br />maka,<br /><br />s = v.t/2<br />2.100 = v ( blm diketahui ) . 2,8/2<br />2.100/2,8 = v/2<br />750 = v/2<br />750 . 2 = v<br /><br />maka, v = 750 . 2 = 15.00 m/s<br /><br />semoga membantu•^•<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-rumus-menghitung-kedalaman-laut">
+                            6. Jelaskan rumus menghitung kedalaman laut !!</h2><br />
+                        <strong>Mapel : IPA Fisika </strong><br /><strong>Kelas : 8 SMP/VIII SMP</strong><br /><strong>Bab : Bunyi </strong><br /><br /><strong>Pembahasan Soal :</strong><br />Jelaskan rumus menghitung kedalaman laut <br /><br /><strong>Pembahasan Jawaban :</strong><br />Rumus menghitung kedalaman laut<br />Yaitu :<br />s = v × t : 2<br /><br /><strong>Keterangan :</strong><br />s = Kedalamannya <br />v = Cepat rambat gelombang <br />t = Waktu yang digunakan<br /><br />Contoh Soal ada di Link :  https://brainly.co.id/tugas/11877854 <br />Yaitu :<br /><strong>DiKetahui :</strong><br />v = 1.600 m/s<br />t = 2 s <br /><br /><strong>DiTanya :</strong><br />s = ...?<br /><br /><strong>DiJawab :</strong><br /><strong>Rumus Mencari s yaitu :</strong><br />s = v × t : 2<br />s = 1.600 × 2 : 2 <br />s = 3.200 : 2<br />s = 1.600 <br /><strong>Maka, Dalamnya laut ialah 1.600 m </strong><br /><br />Semoga Membantu<br /><br />
+                                            <h2 class="ez-toc-section" id="kapal-laut-ketika-berada-dalam-tengah-laut-membunyikan-sebuah-sumber-bunyi-untuk-mengetahui-kedalaman-laut-jika-kapal-laut-tersebut-menangkap-kembali-gelombang-pada-28-detik-kemudian-dan-di-ketahui">
+                            7. kapal laut ketika berada dalam tengah laut membunyikan sebuah sumber bunyi untuk mengetahui kedalaman laut . jika kapal laut tersebut menangkap kembali gelombang pada 2,8 detik kemudian dan di ketahui kedalaman laut 2,100 meter , hitunglah cepat lambat bunyi dalam laut</h2><br />
+                        d= v.t/2<br />2100=v.2,8/2<br />2100=v.1,4<br />v= 1500m/s <br />seingat saya itu semoga membantu<br /><br />
+                                            <h2 class="ez-toc-section" id="getaran-isolator-pada-kapal-laut-diterima-kembali-setelah-04-skop-jika-cepat-rambat-bunyi-didalam-laut-1300-ms-hitunglah-berapakah-kedalaman-lautthankss">
+                            8. getaran isolator pada kapal laut diterima kembali setelah 0,4 skop. Jika cepat rambat bunyi didalam laut 1300 m/s Hitunglah berapakah kedalaman laut!
+thankss</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>Kedalaman Laut </p><p></p><p>Rumus </p><p>s = ½vt</p>s = kedalaman lautv = cepat rambat bunyi.t = waktu <p></p><p>maka </p><p>s = ½vt</p><p>  = ½(1300)(0,4)</p><p>  = ½(130)4</p><p>  = 2(130)</p><p>  = 260 m </p><p></p><p>kedalaman laut tersebut adalah 260 m</p><p>S :</p><p>= 1/2(1.300(0,4)</p><p>= 1/2(1.300(4/10)</p><p>= 1/2(1.300(2/5)</p><p>= 1/2(1.300(2)/5</p><p>= 1/2(2.600/5)</p><p>= 1/2(520)</p><p>= 520/2</p><p>= 260/1</p><p>= 260 M</p><br />
+                                            <h2 class="ez-toc-section" id="menghitung-kedalaman-laut-jika-diketahui-waktu-dan-banyaknya-gelombang-yang-terbentuk%e2%80%8b">
+                            9. menghitung kedalaman laut jika diketahui waktu dan banyaknya gelombang yang terbentuk​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>rumusnya adalah </p><p>S = V x t /2</p><p></p><p><strong>Penjelasan:</strong></p><p>S = menghitung kedalaman laut (m)</p><p>v = memghitung cepat rambat bunyi (m/s)</p><p>t = waktu (s)</p><br />
+                                            <h2 class="ez-toc-section" id="kapal-laut-berada-di-tengah-laut-membunyikan-sebuah-sumber-bunyi-untuk-mengetahui-kedalaman-laut-jika-kapal-laut-tersebut-menangkap-kembali-gelombang-pada-28-detik-kemudian-dan-diketahui-kedalaman-la">
+                            10. kapal laut berada di tengah laut membunyikan sebuah sumber bunyi untuk mengetahui kedalaman laut jika kapal laut tersebut menangkap kembali gelombang pada 2,8 detik kemudian dan diketahui kedalaman laut 2.100 meter hitunglah cepat rambat bunyi di dalam laut</h2><br />
+                        t= 2,8 sekon<br />s= 2100 m<br />v= ?<br /><br />2 × s = v × t<br />v= (2 × s) / t<br />  = (2 × 2100) / 2,8<br />  = 4200 / 2,8 = 1500 m/s<br />
+                                            <h2 class="ez-toc-section" id="untuk-menguku-kedalam-laut-gelombang-bunyi-di-timbulkan-tegak-lurus-kedalam-laut-jika-pantulan-bunyi-gema-diterima-setelah-2-sekan-sedang-cepat-rambat-bunyi-dalam-air-1400ms-hitunglah-kedalam-laut">
+                            11. Untuk menguku kedalam laut, gelombang bunyi di timbulkan tegak lurus kedalam laut jika pantulan bunyi gema diterima setelah 2 sekan, sedang cepat rambat bunyi dalam air 1400m/s hitunglah kedalam laut tersebut</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>s = 1400 m</p><p></p><p><strong>Penjelasan:</strong></p><p>Jawaban terlampir</p><p></p><p>Semoga membantu :)</p><br />
+                                            <h2 class="ez-toc-section" id="menghitung-kedalaman-laut-berdasarkan-gelombang-ultrasonik%e2%80%8b">
+                            12. menghitung kedalaman laut berdasarkan gelombang ultrasonik​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Gelombang ultrasonik dapat digunakan untuk mengukur kedalaman laut. Caranya adalah dengan memancarkan getaran pulsa ultrasonik dari sebuah kapal kemudian gelombang ultrasonik tersebut akan dipantulkan oleh dasar laut dan diterima kembali oleh detektor pada kapal.</p><p><strong>Penjelasan:</strong></p><p>Semoga Membantu ^_^</p><br />
+                                            <h2 class="ez-toc-section" id="rumus-untuk-menghitung-kedalaman-laut">
+                            13. rumus untuk menghitung kedalaman laut</h2><br />
+                        p * g * h<br /><br />Itu kayaknyap * g * h<br /><br />sepertinya itu rumusnya<br />
+                                            <h2 class="ez-toc-section" id="hitunglah-tekanan-dasar-laut-dengan-kedalaman-100">
+                            14. hitunglah tekanan dasar laut dengan kedalaman 100</h2><br />
+                        tekanan normal=76 cmHg<br />setiap turun 100 m dibawah permukaan laut akan bertambah sebanyak 1 cmHg<br />jadi 100 meter di bawah permukaan laut adlh=77cmHg<br /><br />
+                                            <h2 class="ez-toc-section" id="cara-menghitung-kedalaman-laut">
+                            15. cara menghitung kedalaman laut</h2><br />
+                        pengukuran kedalaman laut dapat dilakukan secara lebih praktis dengan memanfaatkan gelombang bunyi dengan rumus :<br /><br />Rumus: V=S/T<br /><br />S= V×t/2 <br /><br />Dibagi 2 karena menggunakan pemantulan bunyi<br />
+                                            <h2 class="ez-toc-section" id="sebuah-kapal-laut-berupaya-untuk-mengukur-kedalam-laut-dengan-menembakan-bunyi-kedalaman-laut-dengan-kecepatan-1500-ms-setelah-3-sekon-sinyal-bunyi-di-terima-oleh-detektor-hitung-berapa-dalamnya-laut">
+                            16. sebuah kapal laut berupaya untuk mengukur kedalam laut dengan menembakan bunyi kedalaman laut dengan kecepatan 1500 m/s setelah 3 sekon sinyal bunyi di terima oleh detektor hitung berapa dalamnya laut ​</h2><br />
+                        <p>&gt;&gt; DIKETAHUI</p><p></p><p>V = 1500 m/s</p><p>t = 3 s</p><p></p><p>&gt;&gt; PERTANYAAN</p><p>Berapa dalamnya laut?</p><p>(S)</p><p></p><p>&gt;&gt; PENYELESAIAN</p><p></p><p>S = V × t / 2</p><p></p><p>S = 1500 × 3 / 2</p><p></p><p>S = 2.250 m</p><p></p><p>Atau,</p><p></p><p>S = 2,25 km</p><p></p><p>================================</p><p>#Nocopypaste</p><p>#Semangatbelajar</p><p></p><p>●▬▬▬▬๑۩۩๑▬▬▬▬▬●</p><p>▓░FAHMIBACHTIAR2567░▓</p><p>●▬▬▬▬๑۩۩๑▬▬▬▬▬●</p><br />
+                                            <h2 class="ez-toc-section" id="rumus-menghitung-kedalaman-laut-dengan-memanfaatkan-bunyi-pantul">
+                            17. rumus menghitung kedalaman laut dengan memanfaatkan bunyi pantul</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Pengamat dapat melakukan perhitungan dengan menggunakan perumusan (l = ( v x t ) : 2 ).</p><p><strong>Penjelasan:</strong></p><p>semoga bermanfaat</p><br />
+                                            <h2 class="ez-toc-section" id="paparan-adalah-zona-laut-terhitung-dari-garis-surut-terendah-sampai-pada-kedalaman-%e2%80%8b">
+                            18. paparan adalah zona laut terhitung dari garis surut terendah sampai pada kedalaman ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Zona Laut Berdasarkan Kedalamannya – Kedalaman dasar laut di setiap wilayah berbeda-beda. Biasanya, laut yang berdekatan dengan benua lebih dangkal daripada yang di tengah laut. Adapun tingkat kedalaman laut dapat kita bagi menjadi 5 macam, yakni:</p><p>a) Zona litoral atau zona pesisir</p><p>Zona Litoral (pesisir) merupakan daerah pantai yang terletak di antara garis pasang naik dan pasang surut. Pada saat terjadi air pasang, maka akan tergenang air dan pada saat terjadi surut, maka akan kering.</p><p></p><p>b) Zona Neritik (laut dangkal)</p><p>Zona neritis adalah zona laut dengan tingkat kedalaman sampai 200 m. Sebuah laut dapat dikategorikan kedalam zona neritik apabila memenuhi syarat berikut ini:</p><p>1) Bagian dasar laut mencapai kedalaman 200 m.</p><p>2) Sinar matahari masih dapat tembus hingga ke dasar laut.</p><p>3) Pada zona ini banyak binatang dan tumbuhan laut sehingga zona ini penting artinya bagi kehidupan manusia.</p><p>4) Zona ini meliputi Landas Kontinen Sunda, seperti Laut Jawa, Laut Natuna, Selat Karimata, Selat Malaka, dan Landas Kontinen Sahul yaitu Laut Arafuru.</p><p></p><p>c) Zona Mesopelagik</p><p>Zona mesopelagik merupakan zona laut pada kedalaman 200 – 1000 m.</p><p></p><p>d) Zona Batial (wilayah laut dalam)</p><p>Zona bathyal merupakan zona laut dengan kedalaman 1000 – 2000 m dan memiliki lereng yang curam. Pada zona ini, matahari tidak mampu tembus kedasar laut.</p><p></p><p>e) Zona Abissal (wilayah laut sangat dalam)</p><p>Zona abissal merupakan laut yang memiliki kedalaman antara 2000–6000 m. Di zona ini, tekanan airnya sangat besar dan suhunga sangat rendah. Selain itu tumbuhan dan binatang laut yang hidup sangatlah terbatas.</p><p></p><p>f) Zona Hadal (wilayah laut yang paling dalam)</p><p>Zona hadal adalah laut yang memiliki kedalaman lebih dari 6000 m. Biasanya dijumpai dalam bentuk palung laut atau lubuk laut.</p><p></p><p>Untuk lebih jelasnya bisa dilihat pada gambar di bawah ini:</p><p></p><p></p><p>Jawaban Detail:</p><p> Tiap Laut Punya Kedalaman Yang Berbeda.Ada Pun Laut Yang Dangkal Dan ada Laut Yabg Mencapai Ribuan Meter Dalamnya</p><p>Bedasarkan Kedalamannya, Laut Dibedakan Menjadi.                                        •Laut Zona Litoral/(Lithoral).                          •Laut Zona Neritik/(Neritic).                            •Laut Zona Batial)(Bathyal).                                       •Laut Zona Abisal/(Abysal).                            Kesimpulan: Laut Zona Abysal/Abisal Adalah Laut Zona Yang Terdalam Yang Mencapai 2.500Meter Dalamnya.            Temperatur Suhu Di Laut Zona Abysal/Abisal Sangat Dingin Dan memiliki Hewan Hewan Yang Masih Misterius.</p><br />
+                                            <h2 class="ez-toc-section" id="cara-menghitung-kedalaman-laut">
+                            19. cara menghitung kedalaman laut</h2><br />
+                        s = v.t / 2<br /><br /><br />s= jarak<br />v= cepat rambat <br />t= waktu <br />
+                                            <h2 class="ez-toc-section" id="seorang-pelaut-mengukur-kedalaman-laut-dari-atas-kepalanya-dengan-mengirim-gelombang-elektromagnetik-sampai-dasar-laut-ternyata-gelombang-elektromagnetik-itu-kembali-setelah-siang-waktu-5-10-pangkat">
+                            20. Seorang pelaut mengukur kedalaman laut dari atas kepalanya dengan mengirim gelombang elektromagnetik sampai dasar laut ternyata gelombang elektromagnetik itu kembali setelah siang waktu 5.10 pangkat -6 sekon hitunglah kedalaman laut tersebut</h2><br />
+                        Diket: <br />△t (selang waktu) = 5 x 10^-6 s<br />c = 3 x 10^8 m/s<br />dit: s?<br />jawab:<br />s = (c x △t)/2 = (3 x 10^8 x 5 x 10^-6)/2 = 15 x 10^2 /2 = 7,5 x 10^2 m = 750 m.<br />Jadi, kedalaman laut tersebut adalah 750 m. semoga jawabannya benar.. <br />
+                                            <h2 class="ez-toc-section" id="sebuah-sonar-dipancarkan-dari-kapal-untuk-mengukur-kedalaman-laut-diketahui-cepat-rambatan-bunyi-dalam-laut-1500-ms-jika-bunyi-terdengar-setelah-2-sekon-hitung-kedalaman-laut-tersebut">
+                            21. sebuah sonar dipancarkan dari kapal untuk mengukur kedalaman laut. diketahui cepat rambatan bunyi dalam laut 1500 m/s. jika bunyi terdengar setelah 2 sekon, hitung kedalaman laut tersebut.</h2><br />
+                        kedalaman laut=1.500(2):2=1.500 mdiket:<br />v= 1500 m/s<br />t= 2 s<br /><br />ditanya: s?<br /><br />jawab:<br />s= v × t / 2<br /><br />s= 1500 × 2 / 2<br /><br />s= 1500 m<br /><br />Atau,<br /><br />s= 1,5 km<br />
+                                            <h2 class="ez-toc-section" id="sebuah-gelombang-ditembakkan-ke-dasar-laut-untuk-mengukur-kedalaman-laut-jika-kecepatan-gelombang-tersebut-500-ms9-s-kemudian-diterima-pantulannya-hitunglah-kedalaman-laut-tersebut-%e2%80%8b">
+                            22. Sebuah gelombang ditembakkan ke dasar laut untuk mengukur kedalaman laut. Jika kecepatan gelombang tersebut 500 m/s,9 s kemudian diterima pantulannya. Hitunglah kedalaman laut tersebut.​</h2><br />
+                        <p>Gelombang bunyi </p><p></p><p><strong>D</strong><strong>i</strong><strong>k</strong><strong>e</strong><strong>t</strong><strong>a</strong><strong>h</strong><strong>u</strong><strong>i</strong><strong>:</strong><strong> </strong></p>v = cepat rambat bunyi = 500 m/s t = waktu = 9 s <p></p><p><strong>D</strong><strong>i</strong><strong>t</strong><strong>a</strong><strong>n</strong><strong>y</strong><strong>a</strong><strong>:</strong><strong> </strong></p>h = kedalaman ? <p></p>Jawaban <p></p><p>h = v × t/2 </p><p>h = 500 × 9/2 </p><p>h = 4.500/2</p><p>h = 2.250 m ✔</p><br />
+                                            <h2 class="ez-toc-section" id="cara-menghitung-kedalaman-laut-dan-panjang-gelombang-bunyi">
+                            23. Cara menghitung kedalaman laut dan panjang gelombang bunyi</h2><br />
+                        kedalaman laut : <br />Pertama pake rumus S= v.t/2 <br />setelah dapat hasilnya .. pake rumus D= s/2 <br /><br />gelombang bunyi : <br />kalo ditanya panjang gelombang pake rumus " lamda = v/f " <br />kalo ditanya frekuensi = v/lamda <br />kalo ditanya periode " 1/f" <br />Smga bermanfaat :)<br />
+                                            <h2 class="ez-toc-section" id="menghitung-kedalaman-laut-berdasarkan-cepat-rambat-bunyi%e2%80%8b">
+                            24. menghitung kedalaman laut berdasarkan cepat rambat bunyi​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p> s= V x t : 2</p><p><strong>Penjelasan:</strong></p><p>s= jarak ( satuannya m)</p><p>V= Cepat rambat bunyi ( satuannya m/s)</p><p>t = waktu ( sekon)</p><br />
+                                            <h2 class="ez-toc-section" id="rumus-menghitung-jarak-kedalaman-laut%e2%80%8b">
+                            25. rumus menghitung jarak kedalaman laut​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>s = v.t/½</p><p><strong>Penjelasan:</strong></p><p>s : kedalaman laut(m)</p><p>v : kecepatan gelombang suara (m/s)</p><p>t : waktu tiba gelombang bunyi (s)</p><p><strong>Jawaban:</strong></p>Keterangan:      S = Kedalaman lautan (m)     V = Kecepatan (m/s)      t = Waktu (s)<p></p><br />
+                                            <h2 class="ez-toc-section" id="cara-menghitung-dalamnya-laut">
+                            26. cara menghitung dalamnya laut</h2><br />
+                        yaitu dengan rumus s=(v.t):2<br /><br />Dengan teknologi sonar dan sinyal bunyi, dalamnya lautan kini dapat dideteksi dengan tingkat keakuratan yang tinggi.<br /><br />Ide sederhananya adalah menggunakan pemancar sinyal dan penerima sinyal yang dipasang pada kapal di permukaan laut.<br /><br />Pemancar akan memancarkan sinyal ke bawah laut dan setelah dipantulkan oleh dasar laut, sinyal akan dibalikkan ke atas lalu diterima oleh penerima sinyal.<br /><br />Rumus yang digunakan adalah<br />h = ½(v × t)<br /><br />h = kedalaman laut<br />v = cepat rambat sinyal di dalam air<br />t = waktu yang diperlukan dari sinyal mulai dipancarkan hingga sinyal ditangkap kembali oleh penerima<br /><br />Semoga cukup jelas dan membantu <br />
+                                            <h2 class="ez-toc-section" id="cara-menghitung-kedalaman-laut-dengan-menggunakan-pantulan-gelombang">
+                            27. cara menghitung kedalaman laut dengan menggunakan pantulan gelombang</h2><br />
+                        Kedalaman Laut<br />s = v x t x ½<br /><br />Dengan :<br />=&gt; s = Kedalaman ( m )<br />=&gt; v = Cepat rambat gelombang ( m/s )<br /><br />Semoga Bermanfaat {^=^}<br />Makasih:DPake persamaan s = v.t<br /><br /><br />Contoh soall<br />Gelombang bunyi = v=1500 m/s.waktu tempuh dari kapal menuju dasar laut = t = 4/2 = 2 s.kedalaman laut = v x t = 1500 m/s x 2s = 3000 m = 3 km.Jadi, kedalaman laut di area perbatasan itu adalah 3 km.<br />
+                                            <h2 class="ez-toc-section" id="pantulan-pertama-gelombang-bunyi-ultrasonik-diterima-selama-1-menit-setelah-gelombang-tersebut-ditambahkan-kedalam-laut-jika-cepat-rambat-bunyi-di-laut-adalah-3600-ms-maka-hitunglah-kedalaman-laut">
+                            28. Pantulan pertama gelombang bunyi ultrasonik diterima selama 1 menit setelah gelombang tersebut ditambahkan kedalam laut. Jika cepat rambat bunyi di laut adalah 3600 m/s, maka hitunglah kedalaman laut tersebut !​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>54000 m atau 54 km</strong></p><p><strong></strong></p><p><strong>Penjelasan:</strong></p><p><strong>Diketahui:</strong></p><p><strong>t = 1 menit = 60 s</strong></p><p><strong>v = 3600 m/s</strong></p><p><strong></strong></p><p><strong>Ditanya:</strong></p><p><strong>h laut = ?</strong></p><p><strong></strong></p><p><strong>Jawab:</strong></p><p><strong>Karena 1 menit adalah waktu bolak-balik gelombang ultrasonik, maka dapat disimpulkan bahwa waktu gelombang ultrasonik dari kapal menuju dasar laut saja adalah 30 detik. Sehingga:</strong></p><p><strong>h = 1/2 x v x t</strong></p><p><strong>h = 1/2 x 3600 x 30</strong></p><p><strong>h = 54000 m atau 54 km</strong></p><p><strong></strong></p><p>Sekian, semoga membantu dan semangat!<strong> </strong></p><br />
+                                            <h2 class="ez-toc-section" id="sebuah-gelombang-ditembakan-ke-dasar-laut-untuk-mengukur-kedalaman-laut-jika-kecepatan-gelombang-tersebut-500ms-9s-kemudian-diterima-pantulannya-hitunglah-kedalaman-laut-tersebut">
+                            29. Sebuah gelombang ditembakan ke dasar laut untuk mengukur kedalaman laut. jika kecepatan gelombang tersebut 500m/s, 9s kemudian diterima pantulannya. hitunglah kedalaman laut tersebut</h2><br />
+                        <p>Gelombang bunyi </p><p></p><p><strong>D</strong><strong>i</strong><strong>k</strong><strong>e</strong><strong>t</strong><strong>a</strong><strong>h</strong><strong>u</strong><strong>i</strong><strong>:</strong><strong> </strong></p>v = cepat rambat bunyi = 500 m/s t = waktu = 9 s <p></p><p><strong>D</strong><strong>i</strong><strong>t</strong><strong>a</strong><strong>n</strong><strong>y</strong><strong>a</strong><strong>:</strong><strong> </strong></p>h = kedalaman ? <p></p>Jawaban <p></p><p>h = v × t/2 </p><p>h = 500 × 9/2 </p><p>h = 4.500/2 </p><p>h = 2.250 m ✔</p><br />
+                                            <h2 class="ez-toc-section" id="penerapan-bunyi-ntuk-menghitung-kedalaman-laut">
+                            30. penerapan bunyi ntuk menghitung kedalaman laut</h2><br />
+                        Pemanfaatan bunyi untuk menghitung kedalaman laut contohnya pada sonar yang menggunakan gelombang ultrasonik. Cara kerjanya, sonar mengirimkan gelombang ultrasonik kedasar laut, saat gelombang mengenai dasar laut, gelombang akang memantul kembali keatas dan ditangkap sonar. Melalui pengukuran lama waktu yang diperlukan gelombang bunyi ultrasonik untuk mencapai sonar kembali dikali dengan kecepatan gelombang maka kita bisa tau kedalaman dasar laut<br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/Dy36H-QkrpY?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>fisika</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/berapa-lama-cuci-darah.html">Berapa Lama Cuci Darah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/it-s-ok-artinya.html">It s Ok Artinya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/berat-badan-ideal-anak-usia-3-tahun.html">Berat Badan Ideal Anak Usia 3 Tahun</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/tumis-oyong-bihun.html">Tumis Oyong Bihun</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/warna-cat-putih-tulang-catylac.html">Warna Cat Putih Tulang Catylac</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/bayi-panas-dalam-sariawan.html">Bayi Panas Dalam Sariawan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/bidang-diagonal-prisma-segilima.html">Bidang Diagonal Prisma Segilima</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/kerajinan-tangan-tempat-tisu-dari-kardus.html">Kerajinan Tangan Tempat Tisu Dari Kardus</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/keesaan-zat-mengandung-pengertian-bahwa.html">Keesaan Zat Mengandung Pengertian Bahwa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/gran-max-1-5-bekas-jakarta.html">Gran Max 1 5 Bekas Jakarta</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/kelompok-tumbuhan-yang-merupakan-tumbuhan-berpembuluh-adalah.html">Kelompok Tumbuhan Yang Merupakan Tumbuhan Berpembuluh Adalah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/wukuf-di-padang-arafah-dilaksanakan-mulai-tergelincirnya-matahari-pada-tanggal.html">Wukuf Di Padang Arafah Dilaksanakan Mulai Tergelincirnya Matahari Pada Tanggal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/tari-pendet-pola-lantainya.html">Tari Pendet Pola Lantainya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/soerjono-soekanto-soekanto.html">Soerjono Soekanto Soekanto</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/mengobati-migrain-secara-alami.html">Mengobati Migrain Secara Alami</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/sebutkan-karakteristik-tanah-liat.html">Sebutkan Karakteristik Tanah Liat</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/hamil-makan-bakso.html">Hamil Makan Bakso</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/ayat-alkitab-untuk-orang-yang-selalu-merasa-benar.html">Ayat Alkitab Untuk Orang Yang Selalu Merasa Benar</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/pengertian-dribble-bola-basket.html">Pengertian Dribble Bola Basket</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/sebutkan-bahan-dan-alat-yang-dibutuhkan-untuk-membuat-patung-gips.html">Sebutkan Bahan Dan Alat Yang Dibutuhkan Untuk Membuat Patung Gips</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://satudata.github.io"
+                            itemprop="url">QnA</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://satudata.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://satudata.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://satudata.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://satudata.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+    <script type='text/javascript' src='//jd3j7g5z1fqs.com/96/78/7a/96787a1945876b1a9c10f79941441964.js'></script>
+<script type='text/javascript' src='//jd3j7g5z1fqs.com/b4/f1/ef/b4f1ef8dfe59b7fa68754094cf6c8e0e.js'></script>
+  <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4739059,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4739059&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

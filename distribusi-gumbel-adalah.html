@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Distribusi Gumbel Adalah - QnA</title>
+    <meta name="description" content="Distribusi Gumbel Adalah, CURAH HUJAN RENCANA METODE GUMBEL DENGAN EXCEL, , , , Indra agus channel, 2021-05-04T01:52:19.000000Z, 20, 10.耿贝尔分布(Gumbel distribution) - Sam&#039; Note, qinqianshan.com, 1008 x 802, png, , 20, distribusi-gumbel-adalah, QnA" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Distribusi Gumbel Adalah - QnA" />
+    <meta property="og:description" content="Distribusi Gumbel Adalah, CURAH HUJAN RENCANA METODE GUMBEL DENGAN EXCEL, , , , Indra agus channel, 2021-05-04T01:52:19.000000Z, 20, 10.耿贝尔分布(Gumbel distribution) - Sam&#039; Note, qinqianshan.com, 1008 x 802, png, , 20, distribusi-gumbel-adalah, QnA" />
+    <meta property="og:site_name" content="QnA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Distribusi Gumbel Adalah - QnA" />
+    <meta name="twitter:description" content="Distribusi Gumbel Adalah, CURAH HUJAN RENCANA METODE GUMBEL DENGAN EXCEL, , , , Indra agus channel, 2021-05-04T01:52:19.000000Z, 20, 10.耿贝尔分布(Gumbel distribution) - Sam&#039; Note, qinqianshan.com, 1008 x 802, png, , 20, distribusi-gumbel-adalah, QnA" />
+    <link rel='stylesheet' id='generate-style-css' href='https://satudata.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://satudata.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://satudata.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://satudata.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://satudata.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://satudata.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://satudata.github.io">Home</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://satudata.github.io" rel="home"> QnA</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Distribusi Gumbel Adalah</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">yolanda9048</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Distribusi+Gumbel+Adalah" alt="Distribusi Gumbel Adalah">
+                    </div>
+                    <p></p>
+                    <p>Sistem distribusi adalah =
+Fungsi diatribusi adalah =
+Saluran distribusi adalah =
+Lembaga distribusi adalah =</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sistem-distribusi-adalah-fungsi-diatribusi-adalah-saluran-distribusi-adalah-lembaga-distribusi-adalah">1.
+                                            Sistem distribusi adalah =
+Fungsi diatribusi adalah =
+Saluran distribusi adalah =
+Lembaga distribusi adalah =</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-dari-distribusi-langsung-distribusi-semi-langsung-dan-distribisi-tidak-langsung-adalah">2.
+                                            Contoh dari distribusi langsung, distribusi semi langsung, dan distribisi tidak langsung adalah.. </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-perbedaan-distribusi-langsung-distribusi-semi-langsung-dan-diatribusi-lpangsung%e2%80%8b">3.
+                                            jelaskan perbedaan distribusi langsung distribusi semi langsung dan diatribusi lpangsung​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#musik-tradisional-gambelan-berasal-dari%e2%80%8b">4.
+                                            musik tradisional gambelan berasal dari​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-distribusia-dan-pihak-pihak-yg-ikut-dalam-kegiatan-distribusi%e2%80%8b">5.
+                                            apa pengertian distribusia dan pihak pihak yg ikut dalam kegiatan distribusi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dirumah-ayah-selalu-melatih-kekuatan-otot-salah-satunya-dengan-menggunakan-dumbel-barbel-pendek-ayah-memiliki-2-jenis-dumbel-pertama-beratnya-25-kg-dumble-kedua-beratnya-12-kg-lebih-ringan-dari">6.
+                                            dirumah ayah selalu melatih kekuatan otot salah satunya dengan menggunakan dumbel (barbel pendek) ayah memiliki 2 jenis dumbel pertama beratnya 2,5 kg , dumble kedua beratnya 1/2 kg lebih ringan dari dumbel pertama. Berapa kg berat dumbel kedua milik ayah?mohon beserta caranya ya kaka..makasihh​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-artinya-didtribusi-langsungdistribusi-tidak-langsing-dan-seni-langsung">7.
+                                            apa artinya didtribusi langsung,distribusi tidak langsing dan seni langsung</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-contoh-kegiatan-istribusi-hasil-industri-dan-distribusi-jasa">8.
+                                            sebutkan contoh kegiatan istribusi hasil industri dan distribusi jasa</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikut-ini-diberikan-4-distribusi-frekuensi-setiap-distribusi-frekuensi-yg-diberikan-terdapat-kesalahan-dalam-penyusunannya-sebutkan-kesalahan-masing-distribusj-frekuensi-dan-alasanya">9.
+                                            Berikut ini diberikan 4 distribusi frekuensi.setiap distribusi frekuensi yg diberikan terdapat kesalahan dalam penyusunannya. sebutkan kesalahan masing distribusj frekuensi dan alasanya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-distribusi-penduduk-indonesia-berdasarkan-sitribusi-geografis">10.
+                                            Jelaskan distribusi penduduk indonesia berdasarkan sitribusi geografis</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#gumble-stokes-adalah">11.
+                                            gumble stokes adalah... </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#siapa-penemu-gambelan">12.
+                                            siapa penemu gambelan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#2-paman-andi-memiliki-dua-jenis-dumbel-barbel-pendek-dumbel-pertama-beratnya-25-kg-dumbel-kedua-beratnya-12-kg-lebih-ringan-dari-dumbel-pertama-berapa-kg-berat-dumbel-kedua-a-2010b-3010c-3">13.
+                                            2.Paman Andi memiliki dua jenis dumbel ( barbel pendek ). Dumbel pertama beratnya 2,5 kg. Dumbel kedua beratnya 1/2 kg lebih ringan dari dumbel pertama. Berapa kg berat dumbel kedua ?a.20/10b.30/10c.35/10bantu jawab dengan caranya​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#di-rumah-ayah-selalu-melatih-kekuatan-ototnya-salah-satunya-dengan-menggunakan-dumbel-barbel-pendek-ayah-memiliki-dua-jenis-dumbel-dumbel-pertama-beratnya-35-kg-dumbel-kedua-beratnya-34-kg-l">14.
+                                            Di rumah , ayah selalu melatih kekuatan ototnya. Salah satunya dengan menggunakan dumbel( barbel pendek ). Ayah memiliki dua jenis dumbel. Dumbel pertama beratnya 3,5 kg. Dumbel kedua beratnya 34 kg lebih ringan dari dumbel pertama. Berapa kg berat dumbel kedua milik ayah?
+pakai cara</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#d-rumah-ayah-selalu-melatih-kekuatan-ototnya-salah-satunya-dengan-menggunakan-dumbel-ayah-memiliki-dua-jenis-dumbel-dumbel-pertama-beratnya-25kg-dumbel-kedua-beratnya-12kg-lebih-ringan-dari-dumbel-p">15.
+                                            D rumah ayah selalu melatih kekuatan ototnya salah satunya dengan menggunakan dumbel ayah memiliki dua jenis dumbel dumbel pertama beratnya 2,5kg dumbel kedua beratnya 1/2kg lebih ringan dari dumbel pertama berapa kg berat dumbel kedua milik ayah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tujuan-saluran-distribusi-dan-contoh-saluran-disitribusijawab-yang-serius-ya">16.
+                                            Tujuan saluran distribusi dan contoh saluran disitribusi?
+Jawab yang serius ya..</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#2-tugas-distributor-sebagai-pelaku-fungsi-didtribusi-3-factor-yang-mempengaruhi-distribusi-barang-dan-jasa-dari-produsen-ke-konsumen-4-lembaga-distribusi-contoh">17.
+                                            2.	Tugas distributor sebagai pelaku fungsi didtribusi 
+3.	 factor yang mempengaruhi distribusi barang dan jasa dari produsen ke konsumen 
+4.	Lembaga distribusi (contoh)</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-yang-simaksud-dengan-gambelan-berlaras-selendro">18.
+                                            apakah yang simaksud dengan gambelan berlaras selendro?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#gumbili-kayu-di-sambat-jua%e2%80%8b">19.
+                                            gumbili kayu di sambat jua​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-dengan-seni-gambelan">20.
+                                            apa yang dimaksud dengan seni gambelan?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#awan-wendus-gombel-sebutan-dari">21.
+                                            awan wendus gombel sebutan dari</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ada-beberapa-cara-distribusi-yang-dilakokan-agar-barang-sampai-kepada-konsomen-tepat-waktu-sebutkan-cara-distribosi-tersebut-%e2%80%8b">22.
+                                            Ada beberapa cara distribusi yang dilakokan agar barang Sampai kepada konsomen tepat waktu, sebutkan cara distribosi tersebut! ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-nada-dari-gambelan-selonding">23.
+                                            apa nada dari gambelan selonding ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-kaitan-antara-kegiatan-produksidistribusidan-konsumsi-dalam-memanfaatkan-dumber-days-alam">24.
+                                            Jelaskan kaitan antara kegiatan produksi,distribusi,dan konsumsi dalam memanfaatkan dumber days alam</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-dengan-wedhus-gembel">25.
+                                            apa yang dimaksud dengan wedhus gembel</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#paman-andi-memiliki-dua-jenis-dumbel-barbel-pendek-dumbel-pertama-beratnya-25-kg-dumbel-kedua-beratnya-12-kg-lebih-ringan-dari-dumbel-pertama-berapa-kg-berat-dumbel-kedua-bantu-jawab-dengan">26.
+                                            Paman Andi memiliki dua jenis dumbel ( barbel pendek ). Dumbel pertama beratnya 2,5 kg. Dumbel kedua beratnya 1/2 kg lebih ringan dari dumbel pertama. Berapa kg berat dumbel kedua ?bantu jawab dengan jalannya.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#paman-andi-memiliki-dua-jenis-dumbel-barbel-pendek-dumbel-pertama-beratnya-2-5-kg-dumbel-kedua-beratnya-12-kg-lebih-ringan-dari-dumbel-pertama-berapa-kg-berat-dumbel-keduaa-20-per-10-c-30-per-1">27.
+                                            paman andi memiliki dua jenis dumbel (barbel pendek) Dumbel pertama beratnya 2.5 kg. Dumbel kedua beratnya 1/2 kg lebih ringan dari dumbel pertama. berapa kg berat dumbel kedua?
+A.20 per 10 C.30 per 10
+B.25 per 10 D.35 per 10</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dimana-terbentukya-umbel%e2%80%8b">28.
+                                            dimana terbentukya umbel​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-perbedan-distribusi-langsung-distribusi-semi-langsung-dan-distribisi-tidak-langsung%e2%80%8b">29.
+                                            jelaskan perbedan distribusi langsung distribusi semi langsung dan distribisi tidak langsung​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tahukah-kamu-tentang-gambelan-apa-yang-dimaksud-gambelan%e2%80%8b">30.
+                                            Tahukah kamu tentang gambelan Apa yang dimaksud gambelan​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="sistem-distribusi-adalah-fungsi-diatribusi-adalah-saluran-distribusi-adalah-lembaga-distribusi-adalah">
+                            1. Sistem distribusi adalah =
+Fungsi diatribusi adalah =
+Saluran distribusi adalah =
+Lembaga distribusi adalah =</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>sistem distribusi= Sistem distribusi (distributed system) adalah suatu sistem jaringan komputer yang saling terhubung demikian rupa sehingga seolah-olah menjadi sebuah komputer yang digunakan oleh satu pengguna</p><p></p><p> fungsi distribusi= mendekatkan produsen dengan konsumen sehingga barang atau jasa dari seluruh indonesia atau luar indonesia bisa kita barang dan jasa tersebut. Kegiatan distribusi adalah suatu penghubung antara kegiatan produksi dan konsumsi. Pelaku kegiatan distribusi dinamakan distributor. </p><p>  </p><p>saluran distribusi=adalah lembaga-lembaga distributor atau lembaga-lembaga penyalur yang mempunyai kegiatan untuk menyalurkan atau menyampaikan barang-barang atau jasa-jasa dari produsen ke konsumen.</p><p></p><p>lembaga distribusi pedagang </p><p> </p><br />
+                                            <h2 class="ez-toc-section" id="contoh-dari-distribusi-langsung-distribusi-semi-langsung-dan-distribisi-tidak-langsung-adalah">
+                            2. Contoh dari distribusi langsung, distribusi semi langsung, dan distribisi tidak langsung adalah.. </h2><br />
+                        distribusi langsung seperti tukang sate<br />distribusi semi lansung seperti tukang kursi<br />distribusi tidak langsung seperti penjualan beras,dari petani ke toko dan dari toko ke konsumen<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-perbedaan-distribusi-langsung-distribusi-semi-langsung-dan-diatribusi-lpangsung%e2%80%8b">
+                            3. jelaskan perbedaan distribusi langsung distribusi semi langsung dan diatribusi lpangsung​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Distribusi secara langsung merupakan kegiatan menyalurkan barang atau jasa langsung dari produsen kepada konsumen tanpa perantara. Sedangkan Distribusi semi langsung merupakan kegiatan menyalurkan barang dan jasa melalui pihak atau toko yang dimilik produsen itu sendiri.</p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="musik-tradisional-gambelan-berasal-dari%e2%80%8b">
+                            4. musik tradisional gambelan berasal dari​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Gamelan berasal dari daerah Jawa Tengah, DI. Yogyakarta, Jawa Timur juga di Jawa Barat yang biasa disebut dengan Degung dan di Bali (Gamelan Bali). Satu perangkat gamelan terdiri dari instrumen saron, demung, gong, kenong, slenthem, bonang dan beberapa instrumen lainnya</p><p></p><p>Semoga membantu</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-distribusia-dan-pihak-pihak-yg-ikut-dalam-kegiatan-distribusi%e2%80%8b">
+                            5. apa pengertian distribusia dan pihak pihak yg ikut dalam kegiatan distribusi​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>distribusi adalah suatu kegiatan untuk menyebarkan,menyampaikan,atau menyalurkan barang dan jasa dari produsen ke konsumen.</p><p></p><p>pihak distribusi merupakan orang,badan,atau lembaga yang terlibat dalam kegiatan distribusi.</p><p></p><p>pihak-pihak yang terlibat dalam kegiatan distribusi:</p><p>produsen</p><p>agen</p><p>distributor</p><p>hasil industri</p><p>pemakaian hasil industri</p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="dirumah-ayah-selalu-melatih-kekuatan-otot-salah-satunya-dengan-menggunakan-dumbel-barbel-pendek-ayah-memiliki-2-jenis-dumbel-pertama-beratnya-25-kg-dumble-kedua-beratnya-12-kg-lebih-ringan-dari">
+                            6. dirumah ayah selalu melatih kekuatan otot salah satunya dengan menggunakan dumbel (barbel pendek) ayah memiliki 2 jenis dumbel pertama beratnya 2,5 kg , dumble kedua beratnya 1/2 kg lebih ringan dari dumbel pertama. Berapa kg berat dumbel kedua milik ayah?mohon beserta caranya ya kaka..makasihh​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>jadi memiliki 2 dumble </p><p>yang ke-1. 2,5</p><p>yang kedua ½ dari yang pertama</p><p>jadi 2,5/2</p><p>=1,25</p><p>jadi total berat keduanya 3,75kg</p><p>tolong jadikan jawaban terbaik</p><br />
+                                            <h2 class="ez-toc-section" id="apa-artinya-didtribusi-langsungdistribusi-tidak-langsing-dan-seni-langsung">
+                            7. apa artinya didtribusi langsung,distribusi tidak langsing dan seni langsung</h2><br />
+                        distribusi langsung : distribusi langsung antara pembuat dan pembeli<br />tidak langsung sebaliknya<br />
+                                            <h2 class="ez-toc-section" id="sebutkan-contoh-kegiatan-istribusi-hasil-industri-dan-distribusi-jasa">
+                            8. sebutkan contoh kegiatan istribusi hasil industri dan distribusi jasa</h2><br />
+                        kegiatan distribusi jasa : barang hasil pertanian,seperti coklat,kopi,merica,dan cengkeh,dan barang hasil industri seperti sepatu,obat-obatan,dan alat elektronik dikirim ke luar negeri (di ekspor) menggunakan kapal laut atau pesawat terbang<br /><br />
+                                            <h2 class="ez-toc-section" id="berikut-ini-diberikan-4-distribusi-frekuensi-setiap-distribusi-frekuensi-yg-diberikan-terdapat-kesalahan-dalam-penyusunannya-sebutkan-kesalahan-masing-distribusj-frekuensi-dan-alasanya">
+                            9. Berikut ini diberikan 4 distribusi frekuensi.setiap distribusi frekuensi yg diberikan terdapat kesalahan dalam penyusunannya. sebutkan kesalahan masing distribusj frekuensi dan alasanya</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Distribusi frekuensi dapat diartikan sebagai suatu susunan data yang telah disusun sedemikian berdasarkan kelas interval atau menurut kategori tertentu. Pada keempat tabel distribusi frekuensi tersebut (Lampiran) digolongkan sebagai suatu data berkelompok yang ditandai dengan adanya interval kelas (panjang/lebar kelas) tiap tabel distribusi frekuensi.</p><p>Permasalahan pada tabel distribusi frekuensi bagian a] (Simak pada lampiran)</p><p>Kelasahan yang ada pada tabel tersebut terletak pada baris keempat (perhatikan lingkaran berwarna merah).  </p><p><strong>Alasan :  </strong></p><p>Pada baris keempat kolom kelas tersebut, interval kelas (panjang/lebar kelas) tidak sama dengan panjang/lebar kelas pada baris sebelumnya (1 – 3)</p><p>Interval kelas pada baris keempat : (49 – 45) + 1 = 5</p><p>Interval kelas pada baris sebelumnya : (44 – 39) + 1 = 6</p><p>Permasalahan pada tabel distribusi frekuensi bagian b]</p><p><strong>Kesalahan :</strong></p><p>∴ Berkaitan pada batas atas dan batas bawah kelasnya (Perhatikan lingkaran berwarna biru)</p><p><strong>Alasan : </strong>pada tiap baris, batas atas dan batas bawah seharusnya tidak bernilai sama melainkan ada batas nilai untuk batas atas dan batas bawah. Contoh ambil baris pertama dan kedua kolom Kelas.</p><p>Baris 1 → 5 – 9</p><p>Baris 2 → 10 – 14 (nilai seharusnya)</p><p>∴ Jika menghiraukan penggunaan batas atas dan bawah, kesalahan berikutnya terletak pada baris 4 kolom Kelas yaitu interval kelas yang tidak sesuai dengan interval kelas pada baris sebelumnya.  </p><p>Permasalahan pada tabel distribusi frekuensi bagian c]</p><p>Pada tabel ini, kesalahannya hampir sama dengan tabel bagian b.  </p><p><strong>Alasan :  </strong></p><p>Batas atas pada baris kedua memiliki jarak yang cukup jauh dengan batas bawah pada baris ketiga kolom Kelas.</p><p>Permasalahan pada tabel distribusi frekuensi bagian d]</p><p>Letak kesalahan pada tabel ini adalah, tidak menetapnya interval kelas, Misalnya pada :</p><p>Baris Pertama →   (13 – 9) + 1 = 5</p><p>Baris kedua    →   (19 – 14) + 1 = 6</p><p>[tex]\huge{\orange{\mathfrak{Smoga \: Membantu}}}[/tex]</p><p>[tex]\huge\blue {Answer \:  by : \: ««\: dazefroni \:»»}[/tex]</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-distribusi-penduduk-indonesia-berdasarkan-sitribusi-geografis">
+                            10. Jelaskan distribusi penduduk indonesia berdasarkan sitribusi geografis</h2><br />
+                        Peresebaran penduduk secara umum, persebaran penduduk berdasarkan administrasi. <br />Semoga dapat membantu dengan jawaban yang saya berikan <br />
+                                            <h2 class="ez-toc-section" id="gumble-stokes-adalah">
+                            11. gumble stokes adalah... </h2><br />
+                        kelas : 10<br />mapel : geografi <br />materi : atmosfer <br /><br />jawaban :<br />campbell stokes, merupakan alat yg di gunakan untuk mengukur lamanya penyinaran  surya terang, atau radiasi cahaya matahari dengan menggunakan alat campbell stokes yg kemudian dipasang kertas ukur dan di gunakan saat cuaca cerah saja <br /><br />semoga manfaat <br />
+                                            <h2 class="ez-toc-section" id="siapa-penemu-gambelan">
+                            12. siapa penemu gambelan</h2><br />
+                        sunan bonang<br />maaf kalau salah:)<br />
+                                            <h2 class="ez-toc-section" id="2-paman-andi-memiliki-dua-jenis-dumbel-barbel-pendek-dumbel-pertama-beratnya-25-kg-dumbel-kedua-beratnya-12-kg-lebih-ringan-dari-dumbel-pertama-berapa-kg-berat-dumbel-kedua-a-2010b-3010c-3">
+                            13. 2.Paman Andi memiliki dua jenis dumbel ( barbel pendek ). Dumbel pertama beratnya 2,5 kg. Dumbel kedua beratnya 1/2 kg lebih ringan dari dumbel pertama. Berapa kg berat dumbel kedua ?a.20/10b.30/10c.35/10bantu jawab dengan caranya​</h2><br />
+                        = 2.5 - 1/2<br />= 25/10 - 1/2<br />= 25/10 - 5/10<br />= 20/10 = ( 2kg )<br />Jawaban yg sesuai<br />A. 20/10<br /><br />Semoga membantu<br />
+                                            <h2 class="ez-toc-section" id="di-rumah-ayah-selalu-melatih-kekuatan-ototnya-salah-satunya-dengan-menggunakan-dumbel-barbel-pendek-ayah-memiliki-dua-jenis-dumbel-dumbel-pertama-beratnya-35-kg-dumbel-kedua-beratnya-34-kg-l">
+                            14. Di rumah , ayah selalu melatih kekuatan ototnya. Salah satunya dengan menggunakan dumbel( barbel pendek ). Ayah memiliki dua jenis dumbel. Dumbel pertama beratnya 3,5 kg. Dumbel kedua beratnya 34 kg lebih ringan dari dumbel pertama. Berapa kg berat dumbel kedua milik ayah?
+pakai cara</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Jawabannya 0 kg</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>3,5 - 34 = 0</p><p>(Mana ada barbel 0)</p><br />
+                                            <h2 class="ez-toc-section" id="d-rumah-ayah-selalu-melatih-kekuatan-ototnya-salah-satunya-dengan-menggunakan-dumbel-ayah-memiliki-dua-jenis-dumbel-dumbel-pertama-beratnya-25kg-dumbel-kedua-beratnya-12kg-lebih-ringan-dari-dumbel-p">
+                            15. D rumah ayah selalu melatih kekuatan ototnya salah satunya dengan menggunakan dumbel ayah memiliki dua jenis dumbel dumbel pertama beratnya 2,5kg dumbel kedua beratnya 1/2kg lebih ringan dari dumbel pertama berapa kg berat dumbel kedua milik ayah</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>2kg</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>2,5 kg - 1/2 kg = 2 kg</p><p>semoga membantu</p><p>maaf kalo salah </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="tujuan-saluran-distribusi-dan-contoh-saluran-disitribusijawab-yang-serius-ya">
+                            16. Tujuan saluran distribusi dan contoh saluran disitribusi?
+Jawab yang serius ya..</h2><br />
+                        tujuannya untuk menyalurkan barang antara produsen kepada konsumen. Cth : pedagang pasar yang menjual buah2an.Saluran Distribusi adalah suatu jalur perantara pemasaran baik 
+transportasi maupun penyimpanan suatu produk barang dan jasa dari tangan
+ produsen ke tangan konsumen.  Saluran distibusi dipengaruhi faktor <br /><br />
+Di antara pihak produsen dan konsumen terdapat perantara pemasaran yaitu
+ wholesaler (distributor/agen) yang melayani pembeli retailer (peritel) 
+dan juga retailer (peritel) yang mengecerkan produk kepada konsumen 
+akhir.<br /><br />
+Jenis-Jenis / Macam-Macam Saluran Distribusi Barang dan Jasa :<br /><br />
+1. Produsen ---&gt; Konsumen (Umumnya Jasa)<br />
+Contoh : Bengkel, Rumah Makan, Pangkas Rambut, Salon, Panti Pijit, Dsb<br /><br />
+2. Produsen ---&gt; Retailer ---&gt; Konsumen<br />
+Contoh : Koran, Es Krim, Dll<br /><br />
+3. Produsen ---&gt; Wholesaler ---&gt; Retailer ---&gt; Konsumen<br />
+Contoh : Mie Instan, Beras, Sayur-Mayur, Minuman Dalam Kemasan, dll<br /><br />
+4. Produsen ---&gt; Agen ---&gt; Wholesaler ---&gt; Retailer ---&gt; Konsumen<br />
+Contoh : Barang Impor<br /><br />
+5. Produsen ---&gt; Industri (Produsen)<br />
+Contoh : Pabrik mie telor menjual produknya ke pedagang mie ayam gerobak keliling.<br /><br />
+6. Produsen ---&gt; Wholesaler ---&gt; Industri (Produsen)<br />
+Contoh : Suatu distributor membeli mesin berat dari luar negeri untuk dijual ke pabrik-pabrik di dalam negeri<br /><br />
+                                            <h2 class="ez-toc-section" id="2-tugas-distributor-sebagai-pelaku-fungsi-didtribusi-3-factor-yang-mempengaruhi-distribusi-barang-dan-jasa-dari-produsen-ke-konsumen-4-lembaga-distribusi-contoh">
+                            17. 2.	Tugas distributor sebagai pelaku fungsi didtribusi 
+3.	 factor yang mempengaruhi distribusi barang dan jasa dari produsen ke konsumen 
+4.	Lembaga distribusi (contoh)</h2><br />
+                        Memperlancar penyampaian barang dari produsen ke konsumen<br />Sifat barang<br />Sifat pembayaran<br />uang<br />Modal<br />Keuntungan<br />Contoh pedagang<br />tugas distibutor = <br /><strong>Membeli barang<br />meperkenalkan barang ke masyarakat luas,</strong><strong> mengirim barang dari produsen (pabrik) menuju konsumen. </strong><br /><strong>
+Tapi tidak selalu langsung ke konsumen, bisa jadi dititipkan dulu di gudang atau di pedagang perantara. </strong><br /><br /><strong>lem</strong><strong>baga distribusi : </strong><br /><strong>Pedagang besar terdiri dari : </strong><strong> Agen</strong><strong>,makelasr,komisioner.</strong><br /><strong>pedagang kecil : pedagang khusu dan jasa</strong><br /><br /><br /><br />
+                                            <h2 class="ez-toc-section" id="apakah-yang-simaksud-dengan-gambelan-berlaras-selendro">
+                            18. apakah yang simaksud dengan gambelan berlaras selendro?</h2><br />
+                        gamelan yng memiliki 5 nada pokok yaitu: 1 2 3 5 6<br />#semoga membantuGamelan laras slendro merupakan sistem urutan nada yang terdiri dari lima nada dalam satu gembyang (oktaf), nada tersebut diantaranya ; 1 (ji), 2 (ro), 3 (lu), 5 (mo), 6 (nem). Istilah ji, ro, lu, mo, nem tersebut merupakan nama singkatan angka dari bahasa jawa, ji berarti siji (satu), ro berarti loro (dua) lu berarti telu (tiga), mo berarti limo (lima) dan nem berarti enem (enam).<br /><br />Semoga membantu ^^<br />
+                                            <h2 class="ez-toc-section" id="gumbili-kayu-di-sambat-jua%e2%80%8b">
+                            19. gumbili kayu di sambat jua​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Kayu rambat disebut juga Kayu ex</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-dengan-seni-gambelan">
+                            20. apa yang dimaksud dengan seni gambelan?</h2><br />
+                        Gamelan adalah ensembel musik yang biasanya menonjolkan metalofon, gambang, gendang, dan gong.Gamelan:ensembel musik yg biasanya menonjolkan metalofon,gambang,gendang,dan gong..<br /><br />
+                                            <h2 class="ez-toc-section" id="awan-wendus-gombel-sebutan-dari">
+                            21. awan wendus gombel sebutan dari</h2><br />
+                        Awan panas yang dikeluarkan Gunung berapiawan panas yang terbentuk saat gunung berapi meletus dan mengeluarkan asap panas yang biasanya di sebut wedus gombel<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="ada-beberapa-cara-distribusi-yang-dilakokan-agar-barang-sampai-kepada-konsomen-tepat-waktu-sebutkan-cara-distribosi-tersebut-%e2%80%8b">
+                            22. Ada beberapa cara distribusi yang dilakokan agar barang Sampai kepada konsomen tepat waktu, sebutkan cara distribosi tersebut! ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Distribusi langsung adalah distribusi barang / jasa tanpa melalui perantara sehingga penyaluran langsung dari produsen kepada konsumen. Contoh, pedagang sate langsung menjual barang kepada konsumen.</p><p></p><p>Distribusi semi langsung adalah sistem distribusi dari produsen kepada konsumen melalui pedagang perantara yang merupakan bagian dari produsen. Contoh : pabrik tekstil menyalurkan kainnya melalui conventer.</p><p></p><p>Distribusi tidak langsung adalah sistem distribusi dari produsen kepada konsumen melalui</p><p>agen </p><p>grosir</p><p>makelar</p><p>komisioner</p><p>pedagang kecil</p><p>yang bertindak sebagai pedagang perantara.</p><br />
+                                            <h2 class="ez-toc-section" id="apa-nada-dari-gambelan-selonding">
+                            23. apa nada dari gambelan selonding ?</h2><br />
+                         
+            <br />
+           
+             
+              
+                 
+                  
+                    
+                   GAMELAN 
+                    WAYAH 
+                   
+                    Selonding
+                  
+                  
+                    
+                
+              
+            
+          
+           
+            <br />
+           
+            
+           
+            <br />
+           
+             
+               
+               
+              
+                 
+                   
+                    »Gamelan 
+                      Wayah «» Seni Karawitan 
+                      «» Seni Suara<br /><br />
+                  
+                
+                 
+                   
+                    Gamelan Selonding yang terbuat dari 
+                      besi ini berlaras pelog tujuh nada ini tergolong 
+                      barungan alit yang langka dan sangat disakralkan oleh masyarakat 
+                      desa Tenganan Pegringsingan 
+                      dan Bongaya (kabupaten Karangasem). 
+                    
+                    Gamelan ini dimainkan untuk mengiringi 
+                      berbagai upaya adat Bali Aga yang dilaksanakan oleh 
+                      masyarakat setempat dan untuk mengiringi tari Abuang, 
+                      Perang Pandan 
+                      (Makare-karean) dan lain-lain. 
+                    <br />
+                
+                 
+                   
+                     
+                      
+                         
+                           
+                            Di kalangan masyarakat Tenganan 
+                              Pagringsingan gamelan Selonding diberi 
+                              nama Bhatara Bagus Selonding. Sejarah munculnya 
+                              Selonding dikaitkan dengan sebuah mitologi 
+                              yang menyebutkan bahwa pada zaman dulu orang-orang 
+                              Tenganan mendengar suara gemuruh dari angkasa 
+                              yang datang secara bergelombang. Pada gelombang 
+                              pertama suara itu turun di Bongaya (sebelah 
+                              timur laut Tenganan) dan pada gelombang kedua suara 
+                              itu turun didaerah Tenganan Pagringsingan. 
+                              Setelah hilangnya suara itu diketemukan gamelan 
+                              Selonding (yang berjumlah tiga bilah). Bilah-bilah 
+                              itu kemudian dikembangkan sehingga menjadi gamelan 
+                              Selonding seperti sekarang.
+                          
+                        
+                      
+                      <br />
+                  
+                
+                 
+                   
+                    Di Tenganan 
+                      gamelan Selonding terdiri dari:<br /><br />
+                  
+                
+                 
+                   
+                     
+                      
+                         
+                           
+                            Jumlah
+                          
+                          Satuan
+                          Ciri-ciri Instrumen
+                        
+                         
+                           
+                            8
+                          
+                          tungguh
+                          berisi 40 buah bilah
+                        
+                         
+                           
+                            6
+                          
+                          tungguh
+                          masing-masing berisi 4 buah bilah 
+                        
+                         
+                           
+                            2
+                          
+                          tungguh
+                          berisikan 8 buah bilah.
+                        
+                      
+                      <br />
+                  
+                
+                 
+                   
+                    Team Survey Konservatori Karawitan Bali 
+                      mencatat bahwa instrumentasi dari gamelan Selonding 
+                      di Tenganan meliputi:<br /><br />
+                  
+                
+                 
+                   
+                     
+                      
+                         
+                           
+                            Jumlah
+                          
+                           
+                            Satuan
+                          
+                          Instrumen
+                        
+                         
+                           
+                            2
+                          
+                           
+                            tungguh
+                          
+                          gong
+                        
+                         
+                           
+                            2
+                          
+                           
+                            tungguh
+                          
+                          kempul
+                        
+                         
+                           
+                            1
+                          
+                           
+                            tungguh
+                          
+                          peenem
+                        
+                         
+                           
+                            1
+                          
+                           
+                            tungguh
+                          
+                          petuduh
+                        
+                         
+                           
+                            1
+                          
+                           
+                            tungguh
+                          
+                          nyongyong alit
+                        
+                         
+                           
+                            1
+                          
+                           
+                            tungguh
+                          
+                          nyongyong ageng
+                        
+                         
+                           
+                            
+                          <br />
+                           
+                            
+                          <br />
+                           
+                        
+                      
+                      <br />
+                  
+                
+                 
+                   
+                    Tabuh-tabuh yang dimainkan dengan patet 
+                      yang berbeda-beda, dapat dikelompokkan menjadi:<br />
+                  
+                
+                 
+                   
+                     
+                      Gending-gending Geguron 
+                        (lagu-lagu upacara sakral)<br />
+                        dengan tabuh-tabuh yang diberi nama:<br />
+                    
+                  
+                
+                 
+                   
+                     
+                      
+                         
+                          Judul
+                          
+                         
+                          Ranggatating
+                           
+                        
+                         
+                          Kulkul Badung 
+                           
+                        
+                         
+                          Patet Puja Semara
+                           
+                        
+                         
+                          Kebogerit
+                           
+                        
+                         
+                          Dewa 
+                           
+                        
+                         
+                          Blegude (Penutup Upacara) 
+                           
+                        
+                         
+                          Ranggawuni (untuk menyimpan Bhatara 
+                            Bagus Selonding).
+                           
+                        
+                      
+                      <br />
+                  
+                
+                 
+                   
+                     
+                      Gending-gending Pategak 
+                        (sebelum upacara dimulai) terdiri dari: <br />
+                    
+                  
+                
+                 
+                   
+                     
+                      
+                         
+                          Judul
+                          
+                         
+                          Tabuh sekar Gadung 
+                           
+                        
+                         
+                          Nyangnyangan 
+                           
+                        
+                         
+                          Rejang Gucek 
+                           
+                        
+                         
+                          Rejang Ileh
+                           
+                        
+                         
+                           
+                           
+                        
+                      
+                      <br />
+                  
+                
+                 
+                   
+                     
+                      Gending-gending untuk mengiringi 
+                        tari (Rejang 
+                        dan Kare-karean 
+                        atau perang Pandan) terdiri dari: <br />
+                    
+                  
+                
+                 
+                   
+                     
+                      
+                         
+                          Judul
+                          
+                         
+                          Gending Rejang, 
+                           
+                        
+                         
+                          Rejang Dauh Tukad, 
+                           
+                        
+                         
+                          Duren Ijo, 
+                           
+                        
+                         
+                          Lente, 
+                           
+                        
+                         
+                          Embung Kelor - Kare-kare.
+                           
+                        
+                      
+                      <br />
+                  
+                
+                 
+                   
+                     
+                      Ada pula sejumlah gending Selonding yang diperkirakan 
+                        berasal dari gamelan Gambang, 
+                        yaitu: <br />
+                    
+                  
+                
+                 
+                   
+                     
+                      
+                         
+                          Judul
+                          
+                         
+                          Pamungkah 
+                           
+                        
+                         
+                          Selambur 
+                           
+                        
+                         
+                          Kesumba 
+                           
+                        
+                         
+                          Pangus
+                           
+                        
+                         
+                          Malat 
+                           
+                        
+                         
+                          Puh Raras Tanjung 
+                           
+                        
+                         
+                          Puh Orangkamal.
+                           
+                        
+                      
+                    
+                  
+                
+              
+               
+          
+           
+            <br /><br /><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-kaitan-antara-kegiatan-produksidistribusidan-konsumsi-dalam-memanfaatkan-dumber-days-alam">
+                            24. Jelaskan kaitan antara kegiatan produksi,distribusi,dan konsumsi dalam memanfaatkan dumber days alam</h2><br />
+                        Kaitan antara kegiatan produksi, distribusi, dan konsumsi adalah<br /><br />Para produsen menghasilkan suatu barang untuk di jual lalu para distributor membeli barang dari produsen lalu menjualnya lagi danDibeli oleh para konsumen<br /><br />Jika tidak ada produsen maka distributor dan konsumen tidak akan bisa hidup<br />Jika tidak ada konsumen maka Distributor dan produsen tidak bisa hidup<br />jika tidak ada distributor maka konsumen susah membeli barang dari produsen<br /><br />Maaf kalo salah ^-^<br />semoga membantu <br /><br /><br /><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-dengan-wedhus-gembel">
+                            25. apa yang dimaksud dengan wedhus gembel</h2><br />
+                        Wedus gembel berarti awan panas: selama lebih kurang 20 menit pengunjung dapat menyaksikan aktivitas puncak gunung merapi, termasuk awan hitamnya yang lebih popular dengan sebutan wedus gembel<br />semoga membantu &gt;_&lt;<br /><br />awan panas yang bergulung-gulung yang asap menyertai letusan merapi maaf yah klo salah<br />
+                                            <h2 class="ez-toc-section" id="paman-andi-memiliki-dua-jenis-dumbel-barbel-pendek-dumbel-pertama-beratnya-25-kg-dumbel-kedua-beratnya-12-kg-lebih-ringan-dari-dumbel-pertama-berapa-kg-berat-dumbel-kedua-bantu-jawab-dengan">
+                            26. Paman Andi memiliki dua jenis dumbel ( barbel pendek ). Dumbel pertama beratnya 2,5 kg. Dumbel kedua beratnya 1/2 kg lebih ringan dari dumbel pertama. Berapa kg berat dumbel kedua ?bantu jawab dengan jalannya.​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1,25kg</p><p></p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>dumbel pertama = a</p><p>dumbel kedua = b</p><p>a = 2,5 kg         </p><p>b = ½ × a = ½ × 2,5 kg = <strong>1,25 kg</strong></p><p>Jawabanya </p><p>Dumbel kedua beratnya 2 kg</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>karena berat dumbel kedua lebih ringan 1/2 kg dari dumbel pertama </p><p>jadi 2,5 - 1/2 2mkg = 2 kg</p><p>Atau 2,5 - 0,5 kg = 2 kg</p><p>1/2 sama dengan 0,5</p><br />
+                                            <h2 class="ez-toc-section" id="paman-andi-memiliki-dua-jenis-dumbel-barbel-pendek-dumbel-pertama-beratnya-2-5-kg-dumbel-kedua-beratnya-12-kg-lebih-ringan-dari-dumbel-pertama-berapa-kg-berat-dumbel-keduaa-20-per-10-c-30-per-1">
+                            27. paman andi memiliki dua jenis dumbel (barbel pendek) Dumbel pertama beratnya 2.5 kg. Dumbel kedua beratnya 1/2 kg lebih ringan dari dumbel pertama. berapa kg berat dumbel kedua?
+A.20 per 10 C.30 per 10
+B.25 per 10 D.35 per 10</h2><br />
+                        <p>Jawab:</p><p></p><p>Penjelasan dengan langkah-langkah:</p><p>B.25 per 10 </p><p></p><p></p><p>Maaf kalo salah</p><p></p><p><strong>Jawaban:</strong></p><p>b.25 per 10 </p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>maaf kalau salah</p><br />
+                                            <h2 class="ez-toc-section" id="dimana-terbentukya-umbel%e2%80%8b">
+                            28. dimana terbentukya umbel​</h2><br />
+                        <p> </p><p>Ingus dihasilkan oleh lapisan sel pada saluran sinus.</p><p></p><p>Dihidung,karean di hidung terdapat selaput lendir yang berfungsi untuk memghasilkan ingus sekaligus menjaga suhu tubuh </p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-perbedan-distribusi-langsung-distribusi-semi-langsung-dan-distribisi-tidak-langsung%e2%80%8b">
+                            29. jelaskan perbedan distribusi langsung distribusi semi langsung dan distribisi tidak langsung​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>Distribusi semi langsung adalah jika ada terjadi suatu produsen menggunakan jasa saluran distribusi perusahaan untuk menyalurkan/menyampaikan barang hasil produknya kepada konsumen</strong></p><p></p><p><strong>T</strong><strong>i</strong><strong>dak langsung adalah saluran distribusi yang dalam proses penyaluran barang dari produsen kepada konsumen dilakukan dengan terlebih dahulu melalui suatu lembaga distribusi seperti distributor, pedagang besar, agen, dan pedagang eceran.</strong></p><p></p><p></p><p><strong>Penjelasan:</strong></p><p>semoga membantu ^_^</p><p><strong>Jawaban:</strong></p><p>Jawaban. Distribusi secara langsung merupakan kegiatan menyalurkan barang atau jasa langsung dari produsen kepada konsumen tanpa perantara. Sedangkan Distribusi semi langsung merupakan kegiatan menyalurkan barang dan jasa melalui pihak atau toko yang dimilik produsen itu sendiriSaluran distribusi tidak langsung adalah saluran distribusi yang dalam proses penyaluran barang dari produsen kepada konsumen dilakukan dengan terlebih dahulu melalui suatu lembaga distribusi seperti distributor, pedagang besar, agen, dan pedagang eceran.</p><p></p><p></p><p></p><p>maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="tahukah-kamu-tentang-gambelan-apa-yang-dimaksud-gambelan%e2%80%8b">
+                            30. Tahukah kamu tentang gambelan Apa yang dimaksud gambelan​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Gamelan Jawa adalah ensembel musik yang biasanya menonjolkan metalofon, gambang, gendang, dan gong.</p><p><strong>penjelasan:</strong></p><p><strong>Musik yang tercipta pada Gamelan Jawa berasal dari paduan bunyi gong, kenong dan alat musik Jawa lainnya.</strong></p><p></p><p><strong>maaf </strong><strong>klo </strong><strong>slh</strong></p><p><strong>klo</strong><strong> </strong><strong>slh </strong><strong>respont </strong><strong>ya.</strong><strong>.</strong></p><p></p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ips</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/edo-s-advice-halaman-25.html">Edo s Advice Halaman 25</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/lagu-nostalgia-indonesia-70an.html">Lagu Nostalgia Indonesia 70an</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/al-qonun-fi-at-tib.html">Al Qonun Fi At Tib</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/cara-lem-lcd-hp.html">Cara Lem Lcd Hp</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/harga-gula-halus-250-gram.html">Harga Gula Halus 250 Gram</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/ciri-jaringan-otot.html">Ciri Jaringan Otot</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/apa-itu-litotes.html">Apa Itu Litotes</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/bahasa-sunda-iya-sayang.html">Bahasa Sunda Iya Sayang</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/cara-membuka-hp-oppo-yang-terkunci-dengan-panggilan-darurat.html">Cara Membuka Hp Oppo Yang Terkunci Dengan Panggilan Darurat</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/bagaimanakah-cara-melakukan-sikap-pasang.html">Bagaimanakah Cara Melakukan Sikap Pasang</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/kegunaan-mefenamic-acid-500-mg.html">Kegunaan Mefenamic Acid 500 Mg</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/nama-planet-terkecil.html">Nama Planet Terkecil</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/berikut-teknik-penambahan-ragam-hias-pada-media-tekstil-kecuali.html">Berikut Teknik Penambahan Ragam Hias Pada Media Tekstil Kecuali</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/toko-johan.html">Toko Johan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/bagaimanakah-ciri-ciri-tumbuhan-yang-penyerbukannya-dibantu-oleh-angin.html">Bagaimanakah Ciri Ciri Tumbuhan Yang Penyerbukannya Dibantu Oleh Angin</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/cara-melihat-pangkat-ml.html">Cara Melihat Pangkat Ml</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/rumus-perbandingan-umur-3-orang.html">Rumus Perbandingan Umur 3 Orang</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/tondok-kadadingku-merupakan-lagu-daerah-yang-berasal-dari.html">Tondok Kadadingku Merupakan Lagu Daerah Yang Berasal Dari</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/topeng-panji-asmoro-bangun.html">Topeng Panji Asmoro Bangun</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/cara-penulisan-di-amplop-lamaran-kerja.html">Cara Penulisan Di Amplop Lamaran Kerja</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://satudata.github.io"
+                            itemprop="url">QnA</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://satudata.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://satudata.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://satudata.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://satudata.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+    <script type='text/javascript' src='//jd3j7g5z1fqs.com/96/78/7a/96787a1945876b1a9c10f79941441964.js'></script>
+<script type='text/javascript' src='//jd3j7g5z1fqs.com/b4/f1/ef/b4f1ef8dfe59b7fa68754094cf6c8e0e.js'></script>
+  <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4739059,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4739059&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

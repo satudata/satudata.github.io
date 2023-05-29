@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cara Membuat Pop Up Frame Sendiri - QnA</title>
+    <meta name="description" content="Cara Membuat Pop Up Frame Sendiri, , , , , , , 0, Cara Membuat Pop Up Frame Sendiri - Kumpulan Tips, mudahsaja.my.id, 1024 x 683, jpeg, , 20, cara-membuat-pop-up-frame-sendiri, QnA" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cara Membuat Pop Up Frame Sendiri - QnA" />
+    <meta property="og:description" content="Cara Membuat Pop Up Frame Sendiri, , , , , , , 0, Cara Membuat Pop Up Frame Sendiri - Kumpulan Tips, mudahsaja.my.id, 1024 x 683, jpeg, , 20, cara-membuat-pop-up-frame-sendiri, QnA" />
+    <meta property="og:site_name" content="QnA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cara Membuat Pop Up Frame Sendiri - QnA" />
+    <meta name="twitter:description" content="Cara Membuat Pop Up Frame Sendiri, , , , , , , 0, Cara Membuat Pop Up Frame Sendiri - Kumpulan Tips, mudahsaja.my.id, 1024 x 683, jpeg, , 20, cara-membuat-pop-up-frame-sendiri, QnA" />
+    <link rel='stylesheet' id='generate-style-css' href='https://satudata.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://satudata.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://satudata.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://satudata.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://satudata.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://satudata.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://satudata.github.io">Home</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://satudata.github.io" rel="home"> QnA</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Cara Membuat Pop Up Frame Sendiri</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">Sltri2534</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Cara+Membuat+Pop+Up+Frame+Sendiri" alt="Cara Membuat Pop Up Frame Sendiri">
+                    </div>
+                    <p></p>
+                    <p>Jelaskan apa yang dimaksud dengan pop up frame</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-apa-yang-dimaksud-dengan-pop-up-frame">1.
+                                            Jelaskan apa yang dimaksud dengan pop up frame</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-aspek-pasar-saat-ini-dalam-bisnis-pop-up-frame">2.
+                                            Jelaskan Aspek pasar saat ini dalam bisnis pop up frame</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-aspek-pasar-yang-akan-datang-dalam-bisnis-pop-up-frame">3.
+                                            Jelaskan aspek pasar yang akan datang dalam bisnis pop up frame</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-apa-yang-dimaksud-dengan-menu-pop-up-dan-cara-menampilkannnya">4.
+                                            Jelaskan apa yang dimaksud dengan menu pop up dan cara menampilkannnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-membuat-animasi-per-frame">5.
+                                            cara membuat animasi per frame</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-kartu-pop-up-ketika-dibuka-akan-muncul-kejutan-pop-up-berupa-aneka-bentuk-kerajinan-tangan-bagi-penerima-kartu-tersebut-ada-banyak-bentuk-kartu-pop-up-yang-bisa-dibuat-di-antaranya-bentuk-hat">6.
+                                            Sebuah kartu pop up ketika dibuka akan muncul kejutan Pop-Up berupa aneka bentuk kerajinan tangan bagi penerima kartu tersebut. Ada banyak bentuk kartu pop up yang bisa dibuat, di antaranya bentuk hati, kereta kuda, dan bunga warna-warni. Untuk membuat beraneka bentuk kartu pop up,para pembaca hanya perlu mengikuti petunjuk dalam buku "Kreasi Kartu Pop-Up". Buku "Kreasi Kartu Pop-Up" ini juga dilengkapi dengan pola-pola pop up sehingga dapat memudahkan para pembaca untuk membuat kartu pop up tersebut. Buku ini bisa didapatkan dengan harga yang terjangkau, yaitu Rp35.000,00 di toko-toko buku terdekat. 3. Informasi tentang buku pada paragraf pertama dapat digolongkan ke dalam aspek...a. apa b. siapa c. kapan d. mengapa​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-yang-dimaksud-menu-pop-up">7.
+                                            Apakah yang dimaksud Menu Pop-Up?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-cara-membuat-action-script-pada-frame">8.
+                                            Jelaskan cara membuat Action Script pada Frame!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-yang-dimaksud-dengan-menu-pop-up">9.
+                                            apakah yang dimaksud dengan menu pop - up</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ada-yang-bisa-buat-pop-up-disini-liat-dong-pop-up-yang-dibuat-tolong-yaaa">10.
+                                            ada yang bisa buat pop up disini??.... liat dong pop up yang dibuat.. tolong yaaa..</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-apa-yang-dimaksud-dengan-menu-pop-up-dan-cara-menampilkannya">11.
+                                            jelaskan apa yang dimaksud dengan menu pop-up dan cara menampilkannya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yg-dimaksud-pop-up">12.
+                                            apa yg dimaksud pop-up?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-cara-membuat-buku-pop-up-%e2%80%8b">13.
+                                            bagaimana cara membuat buku pop up? :-)​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-pop-up-dalam-tik">14.
+                                            apa yang dimaksud pop up dalam tik</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-membuat-pop-up-card-3d">15.
+                                            cara membuat pop up card 3d</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#gimana-caranya-membuat-kartu-pop-up">16.
+                                            gimana caranya membuat kartu pop up</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-yang-dimaksud-menu-pop-up">17.
+                                            Apakah yang dimaksud menu pop up</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-cara-mengunduh-dengan-menggunakan-menu-pop-up">18.
+                                            Jelaskan cara mengunduh dengan menggunakan menu pop-up</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-funsi-dari-menu-pop%e2%80%93up">19.
+                                            Apa funsi dari menu pop–Up</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-apa-yang-di-maksus-dengan-menu-pop-up-dan-cara-menampilkanya">20.
+                                            jelaskan apa yang di maksus dengan menu pop-up dan cara menampilkanya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-cara-menampilkan-kepanjangan-sebuah-teks-secara-pop-up-dalam-halaman-web">21.
+                                            bagaimana cara menampilkan kepanjangan sebuah teks secara pop-up dalam halaman web?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-membuat-pop-up-card">22.
+                                            cara membuat pop up card</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-apa-yang-di-maksud-dengan-menu-pop-up-dan-cara-menampilkannya">23.
+                                            jelaskan apa yang di maksud dengan menu pop-up dan cara menampilkannya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-cara-membuat-link-antar-frame-di-adobe-flash">24.
+                                            Bagaimana cara membuat link antar frame di adobe flash?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-membuat-frame-dari-kardus-bekas%e2%80%8b">25.
+                                            cara membuat frame dari kardus bekas​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-menggunakan-menu-pop-up">26.
+                                            Cara menggunakan menu pop up</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-pop-up-blocker">27.
+                                            apa itu pop-up blocker???</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-cara-membuat-frame-unik">28.
+                                            Bagaimana cara membuat frame unik?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#3-bagaimana-cara-membuat-frame-foto-dari-kertas%e2%80%8b">29.
+                                            3 Bagaimana cara membuat frame foto dari kertas?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-tujuan-membuat-pop-up-book-%e2%80%8b">30.
+                                            apa tujuan membuat pop up book? ​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="jelaskan-apa-yang-dimaksud-dengan-pop-up-frame">
+                            1. Jelaskan apa yang dimaksud dengan pop up frame</h2><br />
+                        <p>Pop Up Frame adalah suatu kerajinan berupa pembuatan susunan foto dalam frame yang sangat kreatif dan unik. Karena bukan hanya sekedar foto biasa, tapi  pop up frame berbentuk timbul atau 3D ( 3 dimensi )</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-aspek-pasar-saat-ini-dalam-bisnis-pop-up-frame">
+                            2. Jelaskan Aspek pasar saat ini dalam bisnis pop up frame</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Aspek Pasar dan Pemasaran dalam studi kelayakan bisnis adalah segala hal yang menyangkut ada tidaknya peluang pasar untuk sebuah produk yang akan dibuat oleh sebuah perusahaan.</p><p>Sehingga, aspek pasar dalam studi kelayakan bisnis adalah hal pertama yang paling penting untuk dianalisa</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-aspek-pasar-yang-akan-datang-dalam-bisnis-pop-up-frame">
+                            3. Jelaskan aspek pasar yang akan datang dalam bisnis pop up frame</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>mohon di lihat di buku lks</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-apa-yang-dimaksud-dengan-menu-pop-up-dan-cara-menampilkannnya">
+                            4. Jelaskan apa yang dimaksud dengan menu pop up dan cara menampilkannnya</h2><br />
+                        Menu Pop Up adalah menu untuk menampilkan sebuah dokumen agar timbul atau lebih jelas. Cara untuk menampilkan menu pop up adalah dengan mengklik tab pop up (yang biasanya muncul di bagian atas sebelah kanan layar).<br />
+                                            <h2 class="ez-toc-section" id="cara-membuat-animasi-per-frame">
+                            5. cara membuat animasi per frame</h2><br />
+                        Pake macromedia flash:<br />Buka aplikasi macromesia flash 8 <br />Pilih dan klik flash documen<br />Pada layar satu frame satu buat gambar orang berjalan<br />Pada frame 2 buat gambar selanjutya begitu pula pada frame-frame slanjutnya mw bikin brpa aja terserah deh<br />Buat gambar selanjutnya hingga beberapa frame<br />Untuk menjalankan animasi nya tekan pada keyboard ctrl+enter  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                                            <h2 class="ez-toc-section" id="sebuah-kartu-pop-up-ketika-dibuka-akan-muncul-kejutan-pop-up-berupa-aneka-bentuk-kerajinan-tangan-bagi-penerima-kartu-tersebut-ada-banyak-bentuk-kartu-pop-up-yang-bisa-dibuat-di-antaranya-bentuk-hat">
+                            6. Sebuah kartu pop up ketika dibuka akan muncul kejutan Pop-Up berupa aneka bentuk kerajinan tangan bagi penerima kartu tersebut. Ada banyak bentuk kartu pop up yang bisa dibuat, di antaranya bentuk hati, kereta kuda, dan bunga warna-warni. Untuk membuat beraneka bentuk kartu pop up,para pembaca hanya perlu mengikuti petunjuk dalam buku "Kreasi Kartu Pop-Up". Buku "Kreasi Kartu Pop-Up" ini juga dilengkapi dengan pola-pola pop up sehingga dapat memudahkan para pembaca untuk membuat kartu pop up tersebut. Buku ini bisa didapatkan dengan harga yang terjangkau, yaitu Rp35.000,00 di toko-toko buku terdekat. 3. Informasi tentang buku pada paragraf pertama dapat digolongkan ke dalam aspek...a. apa b. siapa c. kapan d. mengapa​</h2><br />
+                        <p>Jawaban:</p><p>﻿A.Apa</p><p>Penjelasan:</p><p>﻿Apa contoh pop-up yang bisa dibuat?</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apakah-yang-dimaksud-menu-pop-up">
+                            7. Apakah yang dimaksud Menu Pop-Up?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>menu pop-up adalah menu yang akan tampil secara otomatis atau apabila kita menggerakkan kuraor mouse pada area tertentu biasanya berisi tentang indormasi suatu objek/icon/manu.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-cara-membuat-action-script-pada-frame">
+                            8. Jelaskan cara membuat Action Script pada Frame!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>Berikut cara penulisan action pada movieclip:</p><p>1. Pilih oval  tool pada tool box, buatlah sebuah obyek lingkaran.  Seleksi  obyek lingkaran tersebut kemudian convert menjadi symbol dengan menekan tombol F8 (pilih menu insert&gt;convert to symbol). Pilih movieclip pada option behaviour dan ketikan bola pada name.</p><p></p><p>2. Klik symbol pada objek bola tersebut, kemudian buka panel instance dan ketikan nama “bola”</p><p>pada instance name.</p><p></p><p>3. Buatlah sebuah layer baru dan ubah namanya menjadi layer action. Penambahan layer action akan mempermudah kita dalam penulisan action pada frame, sehingga tidak akan mengganggu obyek yang lain.</p><p></p><p>4. Klik frame 1 layer action, dan dalam kondisi frame 1 terseleksi buka panel action (tekan f9 atau klik menu windows&gt;action apabila panel action belum terbuka dan pastikan mode penulisan adalah mode expert jika menggunakan flash MX atau Flash 8).</p><p></p><p>5. Jalankan Movie dengan menekan tombol Ctrl+Enter, maka kita akan melihat hasil yang sama dengan dengan cara penulisan action pada movieclip.</p><p><strong>Penjelasan:</strong></p><p>maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="apakah-yang-dimaksud-dengan-menu-pop-up">
+                            9. apakah yang dimaksud dengan menu pop - up</h2><br />
+                        menu pop up biasanya di jumpai di di kursor dll<br />menu po up adalah menu yg menampilkan saat kita menggerakan korsor yg berisi obyek/ikon/informasi dll<br />
+                                            <h2 class="ez-toc-section" id="ada-yang-bisa-buat-pop-up-disini-liat-dong-pop-up-yang-dibuat-tolong-yaaa">
+                            10. ada yang bisa buat pop up disini??.... liat dong pop up yang dibuat.. tolong yaaa..</h2><br />
+                        Barang yang Perlu Dipersiapkan untuk Membuat Buku Pop Up<br /><br />Gunting.Pensil.Penggaris.Crayon, pensil warna, cat minyak atau yang sejenisnya untuk mewarnai.Kertas karton A4 2-3 lembar untuk percobaan.Kertas warna-warni, origami atau kertas apapun untuk digunakan sebagai pernak-perniknya. Lem.<br /><br />Langkah Pertama<br /><br />Lipat kertas tebal dengan ukuran yang seimbang diantara kedua sisi.<br /><br />Langkah Kedua<br /><br />Tentukan ukuran penyangga pop up-nya dengan menggunakan penggaris dan pensil. Pastikan garis memiliki ukuran yang cukup untuk dipakai sebagai pop up. Jika sudah ditentukan, maka langkah selanjutnya adalah menggunting bagian yang sudah ditandai.<br /><br />Langkah Ketiga<br /><br />Hasil dari langkah kedua adalah seperti di gambar c di atas. Kertasnya tidak dipotong semua, melainkan dimasukkan ke bagian dalam lipatan sehingga tidak terlihat dari luar.<br /><br />Di sini, kita akan membuat pop up bertingkat, jadi langkah kedua tadi diulang dengan menempati bagian atas lubang pop up pertama. Perhatikan, untuk tingkatan kali ini, yang digunting hanya satu sisi dari kertas saja.<br /><br />Langkah Keempat<br /><br />Balik kertas, gunting kertas sebagaimana langkah ketiga tadi. Ingat, hanya satu sisi saja.<br /><br />Langkah Kelima<br /><br /><br />Berikutnya kita akan membuat tempat pop up untuk hiasan lainnya. Lakukan sebagaimana langkah kedua, namun lebarnya sekitar 4 cm. Untuk memberikan kesan melengkung, kertas digunting dari arah tengah, sekitar 1 cm dari garis batas yang dibuat.<br /><br />Langkah Keenam<br /><br />Di salah satu sisi pop up kedua, potong bagian yang tidak diperlukan sampai rata dengan garis pola. Ini dilakukan karena bagian tersebut kurang terpakai, bahkan cenderung memperburuk pemandangan.<br /><br />Langkah Ketujuh<br /><br />Hasilnya seperti ini. Rangkaian pop up sudah siap, sekarang kamu sudah bisa menghias dinding kertas dengan diberi gambar memakai pensil dan sejenisnya.<br /><br />Langkah Kedelapan<br /><br />Berikutnya adalah membuat kue untuk ditaruh di pop up “meja” tadi. Gunakan kreasimu untuk membuat kue seindah mungkin.<br /><br />Langkah Kesembilan<br /><br />Berikan efek warna di kue, agar ia terlihat lebih indah. Kamu bisa memberikan pernak pernik tambahan seperti lilin angka dan sebagainya.<br /><br />Langkah Kesepuluh<br /><br />Buat hiasan tambahan berupa kertas berbentuk burung hantu. Kamu bisa membuatnya dengan manual atau dengan cetakan. Kalau kesulitan, tidak harus burung hantu kok, buat saja hiasan yang kamu bisa sekreatif mungkin.<br /><br />Langkah Kesebelas<br /><br />Buat satu lagi bingkai pop up di atas bingkai kedua bagian yang belum dipotong kotak. Bingkai pop up tingkat kedua ini akan dipakai sebagai sandaran dari kuenya.<br /><br />Langkah Kedua Belas<br /><br />Mulai pemasangan dan pengeleman dari hiasan-hiasan tadi. Gunakan perekat yang kuat agar tidak mudah lepas.<br /><br />Langkah Ketiga Belas<br /><br />Beginilah hasilnya bila semua sudah direkatkan. Agar lebih indah, kita juga akan membuat sampulnya.<br /><br />Langkah Keempat Belas<br /><br />Siapkan kertas origami bermotif (atau polos), lalu lubangi bagian tengahnya.<br /><br />Langkah Kelima Belas<br /><br />Tempelkan kertas origami di kertas tebal (yang baru, bukan kertas pop up). Pasang lagi hiasan burung hantunya.<br /><br />Langkah Keenam Belas<br /><br />Jika sampul dan pop up sudah jadi, maka rekatkan keduanya sehingga menjadi satu memakai lem. Perlu diperhatikan, jangan sampai mengelem bagian pop up-nya. Mengelem pop up akan mengakibatkan ia menempel dengan sampul sehingga ketika dibuka nggak akan loncat (pop up)<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-apa-yang-dimaksud-dengan-menu-pop-up-dan-cara-menampilkannya">
+                            11. jelaskan apa yang dimaksud dengan menu pop-up dan cara menampilkannya</h2><br />
+                        menu pop up adalah menu yang otomatis akan muncul pada home screen .cara menampilkan dengan cara menghidupkan pop up setting ke 'ON'<br />
+                                            <h2 class="ez-toc-section" id="apa-yg-dimaksud-pop-up">
+                            12. apa yg dimaksud pop-up?</h2><br />
+                        ,pop-up yaitu jendela yang biasanya muncul tiba-tiba ketika 
+mengunjungi halaman web. biasanya iklan ini tidak diperlukan dan harus 
+disingkirkan agar tidak mengganggu proses menjelajah web.,.....<br /><br />
+                                            <h2 class="ez-toc-section" id="bagaimana-cara-membuat-buku-pop-up-%e2%80%8b">
+                            13. bagaimana cara membuat buku pop up? :-)​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p>sediakan buku yg sudah di robek robek (yg rapih) solatip buku di bagian belakang untuk memperapih bukumulai lah tulis judul dan gambar yg ingin di tulissetelah itu.... warnailah buku supaya lebih menariksetelah di warnai buku pop up sudah selesai <p></p><p></p><p></p><p></p><p></p><p><strong>Maaf </strong><strong>kak </strong><strong>kalo </strong><strong>ada </strong><strong>salah.</strong><strong>.</strong><strong>. </strong></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-pop-up-dalam-tik">
+                            14. apa yang dimaksud pop up dalam tik</h2><br />
+                        pop up adl menu yang akan tampil secara otomatis atau apabila kita menggerakkan kursor mouse pada area tertentu, biasanya berisi tentang informasi suatu obyek/icon/menu <br />
+                                            <h2 class="ez-toc-section" id="cara-membuat-pop-up-card-3d">
+                            15. cara membuat pop up card 3d</h2><br />
+                        <p>Bahan dan alat yang dibutuhkan :
+</p><p>
+</p><p>Inner card (Kartu bagian dalam) dengan ukuran: 6.75″ x 9″ , yang ketika dilipat maka panjang dan lebarnya = 6.75″ x 4.5″ . (Simplenya Kamu bisa menggunakan Kertas yang agak tebal )
+</p><p>Outer card (Kartu bagian luar): 7″ x 10″ , yang ketika dilipat maka panjang dan lebarnya = 7″ x 5″ . (Simplenya Kamu bisa menggunakan Kertas yang lebih tebal dari kertas yang kamu gunakan untuk inner card )
+</p><p>Yang sesuai dengan ukuran amplop A7 dengan ukuran 7.25″ x 5.25″ .
+</p><p>Lem / double tape dan Gunting
+</p><p>Cara membuatnya :
+</p><p>1. Print template di inner card. </p><p>2. Setelah kamu print potong sesuai dengan garis yang ditentukan
+</p><p>3. Lem Inner cardnya dengan Outer card</p><p>4. Selesai , mudah banget kan. Nah kalo kamu pengen lebih rame kamu bisa menambahkan tulisan-tulisan cantik atau hiasan-hiasan kedalam Pop UP Card ini.</p><p>
+</p><p> </p><br />
+                                            <h2 class="ez-toc-section" id="gimana-caranya-membuat-kartu-pop-up">
+                            16. gimana caranya membuat kartu pop up</h2><br />
+                        <p><strong>Jawaban</strong><strong>:</strong></p><p><strong>1.Potonglah selembar kertas berbentuk persegi panjang. </strong></p><p><strong>2.lipat menjadi 2 bagian</strong></p><p><strong>3.buat 2 potong =sekitar 2,5</strong></p><p><strong>4.lipat pop up</strong></p><p><strong>5.putuskan ap yg ingin di pop up kan</strong></p><p><strong>6.dan terakhir selesaikan kartunya</strong></p><p><strong>semoga</strong><strong> </strong><strong>ber</strong><strong>manfaat</strong><strong>,</strong><strong>maaf</strong><strong> </strong><strong>kalo</strong><strong> </strong><strong>terlalu</strong><strong> </strong><strong>simp</strong><strong>le</strong></p><br />
+                                            <h2 class="ez-toc-section" id="apakah-yang-dimaksud-menu-pop-up">
+                            17. Apakah yang dimaksud menu pop up</h2><br />
+                        menu yang tampil pada saat mouse diklik  kanan :)menu pop up merupakan jenis widget melayang yang penampilannya muncul ketika blog dibuka.<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-cara-mengunduh-dengan-menggunakan-menu-pop-up">
+                            18. Jelaskan cara mengunduh dengan menggunakan menu pop-up</h2><br />
+                        Aktifkan situs yang memiliki file atau gambar yang dapat didownload---Klik kanan pada file hyperlink yang akan didownload---Klik Save Target As---Tentukan lokasi penyimpanan file---Ketik nama file pada kotak File name---Tunggulah proses download selesai.<br />
+                                            <h2 class="ez-toc-section" id="apa-funsi-dari-menu-pop%e2%80%93up">
+                            19. Apa funsi dari menu pop–Up</h2><br />
+                        1. Popup sebagai Notifikasi<br />2. Popup untuk Child Menu<br />3. Sebagai alat promosi<br />4. Sebagai alert Sistem<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-apa-yang-di-maksus-dengan-menu-pop-up-dan-cara-menampilkanya">
+                            20. jelaskan apa yang di maksus dengan menu pop-up dan cara menampilkanya</h2><br />
+                        Menu pop-up adalah suatu halaman yang otomatis keluar saat kita sedang membuka suatu halaman website.<br />Cara menampilkan adalah dengan memberikan suatu script pada pembuatan web page<br />
+                                            <h2 class="ez-toc-section" id="bagaimana-cara-menampilkan-kepanjangan-sebuah-teks-secara-pop-up-dalam-halaman-web">
+                            21. bagaimana cara menampilkan kepanjangan sebuah teks secara pop-up dalam halaman web?</h2><br />
+                        <p><strong>Pop Up</strong> merupakan sebuah jendela yang muncul pada halaman sebuah website pada saat user atau pengunjung membuka sebuah website, <strong>Auto Pop Up </strong>biasanya digunakan untuk memasang sebuah iklan-iklan yang terdapat pada website tersebut, nah pada pembahasan kali ini kita akan mebahas <strong>Cara Membuat Auto Pop Up Menggunakan HTML dan CSS, </strong>cara kerja dari <strong>Auto Pop up</strong> ini yaitu ketika pengunjung ingin mengunjungi sebuah halaman website, maka secara otomatis akan muncul sebuah jendela pop-up yang terdapat pada website tersebut.</p><p><strong>Cara Membuat Auto Pop Up Menggunakan HTML dan CSS, </strong>langkah pertama kita akan membuat file html untuk strukturnya dan file CSS untuk mengatur layout atau tampilan dari pop up yang akan kita buat, tanpa berlama-lama kita yang pertama kita akan membuat file indexnya, dan silahkan teman-teman simpan script yang terdapat dibawah ini dengan nama<strong> index.html</strong></p>
+
+
+Cara Membuat Auto Pop Up Menggunakan HTML dan CSS
+    
+    Cara Membuat Auto Pop Up Menggunakan HTML dan CSS
+
+    
+        
+            
+                http://files.wacana.siap.web.id/content/uploads/2016/06/kursus-desain-jakarta.jpg" alt=""&gt;
+            
+            close
+        
+    
+
+
+<p>Setelah kita membuat file index.html berikutnya kita akan membuat file CSS untuk mengatur layout atau tampilannya, dan silahkan teman-teman simpan script yang terdapat dibawah ini dengan nama <strong>style.css</strong></p>*{margin: 0; padding: 0}
+@keyframes autopopup {
+    from {opacity: 0;margin-top:-200px;}
+    to {opacity: 1;}
+}
+#close {
+    background-color: rgba(64, 68, 65, 0.5);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    animation:autopopup 3.5s;
+}
+#close:target {
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    transition:all 1s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (min-width: 768px){
+    .container-popup {
+        width:30%;
+    }
+}
+@media (max-width: 767px){
+    .container-popup {
+        width:30%;
+    }
+}
+.container-popup {
+    position: relative;
+    margin: 5% auto;
+    padding: 4px 3px;
+    background-color: #e1fff5;
+    color: #333;
+    border-radius: 8px;
+}
+.container-popup img {
+    width: 100%
+}
+.close {
+    position: absolute;
+    top:3px;
+    right:3px;
+    background-color: #33898B;
+    padding:7px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 1;
+    color:#fff;
+}<br />
+                                            <h2 class="ez-toc-section" id="cara-membuat-pop-up-card">
+                            22. cara membuat pop up card</h2><br />
+                        1) potonglah selembar kertas bewarna yng berbentuk persegi panjang<br />2) lipat menjadi 2 bagian sisi-sisinyaa <br />3) buat 2 potongan kecil kira-kira 2,5 cm panjangnyaa,dan lipat dengan di tekuk rapi<br />4) lalu lipat pop-up nya<br />5) dan selesaikan kartu anda<br /><br />maaf kalo kurang mengerti:)<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-apa-yang-di-maksud-dengan-menu-pop-up-dan-cara-menampilkannya">
+                            23. jelaskan apa yang di maksud dengan menu pop-up dan cara menampilkannya</h2><br />
+                        Menu pop-up adalah menu yang tampil secara otomatis apabila menggerakkan kursor mouse pada area tertentu.<br /> <br /><br />
+                                            <h2 class="ez-toc-section" id="bagaimana-cara-membuat-link-antar-frame-di-adobe-flash">
+                            24. Bagaimana cara membuat link antar frame di adobe flash?</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>menggunnakan on(.realease){</p><p>                                 (gotoandstop);</p><p>                                   2;</p><p>                                  }</p><br />
+                                            <h2 class="ez-toc-section" id="cara-membuat-frame-dari-kardus-bekas%e2%80%8b">
+                            25. cara membuat frame dari kardus bekas​</h2><br />
+                        <p>Tahap Pengerjaan :</p><p></p><p>1. Ambil kardus bekas kemudian sesuaikan ukurannya dengan ukuran foto yang akan dibingkai dan lebihkan kelilingnya sebesar 2 cm. Kemudian bagian tengahnya dipotong dengan menggunakan cutter secara perlahan. Dalam tutorial ini foto yang digunakan berukuran 10 x 15 cm. Nah, kardus ini akan menjadi bagian depan frame foto.</p><p></p><p></p><p></p><p>2. Selanjutnya, ambil lagi kardus bekas dan sesuaikan ukurannya dengan kardus yang telah kita sesuaikan ukurannya dengan foto. Kardus yang kita potong di tahap kedua ini akan menjadi bagian belakang frame foto.</p><p></p><p></p><p></p><p>3. Tahapan selanjutnya adalah membungkus kardus dengan kertas kado agar terlihat lebih menarik. Pilihlah kertas kado sesuai dengan warna dan motif yang kita suka. Rekatkan kertas kado pada kardus untuk frame bagian depan dan bagian belakang. Berhati-hatilah saat membungkus frame bagian depan dan lakukan dengan perlahan agar hasilnya rapi.</p><p></p><p></p><p>Frame bagian depan</p><p></p><p>Frame bagian belakang</p><p>4. Guntinglah plastik mika dan sesuaikan ukurannya dengan lubang pada frame bagian depan, kemudian rekatkan plastik mika pada frame bagian depan dengan menggunakan double tip.</p><p></p><p></p><p></p><p>5. Agar foto tersimpan dengan pas di dalam frame, maka bagian bawah, kanan dan kiri frame batasi dengan double tip sehingga pada saat foto dimasukkan ke dalam frame akan tetap tersimpan dengan pas. Ingat, lho, kertas putih yang menempel pada double tip-nya jangan dilepas karena fungsi double tip ini hanya sebagai pembatas saat memasukkan foto ke dalam frame dan bukan untuk merekatkan. Oh, iya … fungsi dari adanya pembatas dari double tip ini memudahkan kita jika nantinya ingin mengganti foto lain tapi fotonya tetap harus seukuran,ya.</p><p></p><p></p><p></p><p>6. Selanjutnya, rekatkan frame bagian depan pada frame bagian belakang dengan menggunakan double tip.</p><p></p><p></p><p></p><p>7. Tahapan terakhir adalah membuat penyangga frame. Kita manfaatkan potongan-potongan sisa dari kardus, potongkan tiga bagian kardus dengan ukuran yang berbeda. Bagian pertama dipotong dengan ukuran 18 x 5 cm, sedangkan bagian kedua dan ketiga dipotong dengan ukuran 15 x 5 cm.</p><p></p><p></p><p>Potong dengan ukuran berbeda</p><p>Kemudian tumpuklah ketiga bagian ini dan rekatkan dengan double tip, setelah itu tempelkan pada bagian belakang frame.</p><p></p><p></p><p>Tumpuk ketiga bagian dengan double  tip</p><p></p><p>Tempelkan di belakang frame</p><p>Nah, akhirnya kita punya sebuah frame foto cantik yang terbuat dari bahan daur ulang. Gimana tutorialnya? Cukup mudah dipraktikkan, bukan? Yuk, daripada tumpukan kardus bekas itu tergeletak memenuhi rumah kita, lebih baik kita manfaatkan dengan cara mendaur ulangnya menjadi benda-benda yang menarik. Selamat mencoba !</p><p></p><p>Semoga bisa membantu. ;)</p><p>-potong kardus menjadi persegi panjang</p><p>-potong tengahnya </p><p>-lapisi dengan kertas kado menggunakan</p><p>lem kertas( Bisa apa aja )</p><p>-hiasi Dengan manik manik atau lainnya </p><p></p><p></p><p>maaf kalau salah </p><br />
+                                            <h2 class="ez-toc-section" id="cara-menggunakan-menu-pop-up">
+                            26. Cara menggunakan menu pop up</h2><br />
+                        <strong>Rcuva</strong> menawarkan berbagai pilihan dalam memilih dokumen, file atau folder yang Anda ingin hapus atau timpa dengan aman.
+
+<strong>Checking</strong> biasanya digunakan untuk memilih 
+beberapa file yang berhubungan dan tidak berhubungan untuk didapatkan 
+kembali atau ditimpa dengan aman dan cepat.<strong>Highlighting</strong> biasanya digunakan untuk memilih file yang berhubungan di sebuah blok atau grup untuk didapatkan kembali atau ditimpa.Di <strong>Recuva main</strong>, <strong>Klik kanan</strong> di file yang telah dihapus untuk mengaktifkan menu pop-up berikut:
+
+Gambar 4: Menu pop-up
+
+<strong>Recover Highlighted</strong>: Item ini membolehkan Anda untuk mendapatkan kembali -semua atau sesuai pilihan- file yang terhapus.
+
+<strong>Recover Checked</strong>: Dengan item, ini Anda dapat mendapatkan kembali file pilihan Anda yang terhapus.
+
+<strong>Check Highlighted</strong>: Item ini memungkinkan Anda untuk memilih file pilihan Anda yang sudah dihapus.
+
+<strong>Uncheck Highlighted</strong>: Item ini memungkinkan Anda membatalkan pilihan pada file pilihan Anda yang sudah dihapus.
+
+Seperti yang Anda ingat, <strong>View Mode</strong> juga dapat diatur di tab General di dalam layar Options. Item ini membolehkan Anda untuk memilih bagaimana Anda ingin melihat file yang terhapus
+
+<strong>List</strong>: Pilihan ini memungkinkan Anda melihat file-file yang sudah dihapus dalam sebuah daftar seperti yang terlihat di Gambar 5. <strong>Tree</strong>: Pilihan ini membolehkan Anda untuk melihat jalur direktori dari file-file yang sudah dihapus dalam bentuk bercabang-cabang. <strong>Thumbnails</strong>: Pilihan ini memungkinkan Anda untuk 
+melihat file-file yang sudah dihapus dalam bentuk grafis atau gambar 
+bilamana memungkinkan. <strong>Highlight Folder</strong>: Pilihan ini membolehkan Anda 
+memilih beberapa file yang sudah dihapus berdasarkan jalur direktorinya,
+ sehingga Anda dapat menjalankan proses yang tersedia pada pop-up menu.
+
+<strong>Secure Overwrite Highlighted</strong>: Pilihan ini memungkinkan Anda untuk menimpa file pilihan yang sudah dihapus dengan aman.
+
+<strong>Secure Overwrite Checked</strong>: Pilihan ini membolehkan Anda untuk menimpa secara aman file pilihan yang sudah dihapus, mengubah statusnya menjadi merah.
+
+
+
+4.3 Cara menimpa file yang telah terhapus dengan aman
+
+Untuk menimpa file yang terhapus dengan aman, ikuti langkah berikut:
+
+<strong>Langkah 1. Centang</strong> file individual yang Anda ingin untuk ditimpa dengan aman, lalu <strong>klik kanan</strong> boks check untuk mengatifkan menu pop-up
+
+<strong>Langkah 2. Pilih</strong> ![](/sbox/screen/recuva-en/35.png untuk mengaktifkan box dialog konfirmasi sebagai berikut:
+
+Gambar 5: Dialog box Secure overwrite confirmation
+
+<strong>Langkah 3. Klik</strong> 
+ untuk memulai prosess penimpaan file; tergantung dari ukuran dan status
+ dari file serta pilihan Secure overwriting yang Anda pilih di tab General di layar Options, proses ini mungkin akan memakan waktu. Setelah prosess penimpaan selesai, layar mirip seperti dibawah ini akan muncul:
+
+Gambar 6: Layar yang menunjukkan operasi sudah selesai (Operation Complete)
+
+Anda telah dengan sukses melakukan proses mendapatkan kembali dan juga penyimpaan aman pada file-file Anda menggunakan <strong>Recuva</strong>. <br /><br /><br />
+                                            <h2 class="ez-toc-section" id="apa-itu-pop-up-blocker">
+                            27. apa itu pop-up blocker???</h2><br />
+                        sebuah fitur untuk menangkal adanya iklan pop up yang menyebalkan<br />
+                                            <h2 class="ez-toc-section" id="bagaimana-cara-membuat-frame-unik">
+                            28. Bagaimana cara membuat frame unik?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>lihat di google kak..banyak..kalo gak di youtube...</p><p><strong>Penjelasan:</strong></p><p>maaf kalo salah.☺☺☺</p><br />
+                                            <h2 class="ez-toc-section" id="3-bagaimana-cara-membuat-frame-foto-dari-kertas%e2%80%8b">
+                            29. 3 Bagaimana cara membuat frame foto dari kertas?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Menggunting</p><p>menempel</p><p>memajang</p><p><strong>Penjelasan:</strong></p><p>maaf klo salah</p><br />
+                                            <h2 class="ez-toc-section" id="apa-tujuan-membuat-pop-up-book-%e2%80%8b">
+                            30. apa tujuan membuat pop up book? ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>mempromosikan buku</p><p></p><p><strong>Penjelasan:</strong></p><p>upaya yg dilakukan agar buku dapat terjual laris</p><p></p><p>mungkin wkwk</p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/UA9T2JJ-9lM?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/contoh-kata-teknis-dalam-teks-persuasi.html">Contoh Kata Teknis Dalam Teks Persuasi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/download-lagu-aku-bisa-apa.html">Download Lagu Aku Bisa Apa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/berat-tongkat-pemukul-rounders.html">Berat Tongkat Pemukul Rounders</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/toko-jelita.html">Toko Jelita</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/merk-cukur-rambut-yang-bagus.html">Merk Cukur Rambut Yang Bagus</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/cara-menjaga-integrasi-nasional.html">Cara Menjaga Integrasi Nasional</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/apa-hukumnya-belum-mandi-wajib-saat-puasa.html">Apa Hukumnya Belum Mandi Wajib Saat Puasa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/beda-fase-gelombang.html">Beda Fase Gelombang</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/kecap-inggris-dan-kecap-ikan.html">Kecap Inggris Dan Kecap Ikan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/sebutkan-niat-puasa.html">Sebutkan Niat Puasa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/sholat-jamak-maghrib-isya-berapa-rakaat.html">Sholat Jamak Maghrib Isya Berapa Rakaat</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/berikut-teknik-penambahan-ragam-hias-pada-media-tekstil-kecuali.html">Berikut Teknik Penambahan Ragam Hias Pada Media Tekstil Kecuali</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/kirim-barang-ke-usa-murah.html">Kirim Barang Ke Usa Murah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/membesarkan-penis.html">Membesarkan Penis</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/yang-termasuk-latihan-keseimbangan-adalah.html">Yang Termasuk Latihan Keseimbangan Adalah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/bagaimana-proses-kedatangan-bangsa-deutro-melayu-ke-indonesia.html">Bagaimana Proses Kedatangan Bangsa Deutro Melayu Ke Indonesia</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/selamat-tinggal-kasih-sampai-kita-jumpa-lagi.html">Selamat Tinggal Kasih Sampai Kita Jumpa Lagi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/cara-mendapatkan-voucher-gratis-ongkir-shopee-jika-sudah-habis.html">Cara Mendapatkan Voucher Gratis Ongkir Shopee Jika Sudah Habis</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/pokok-pikiran-uud-1945-alinea-3.html">Pokok Pikiran Uud 1945 Alinea 3</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://satudata.github.io/contoh-benda-sudut-tumpul.html">Contoh Benda Sudut Tumpul</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://satudata.github.io"
+                            itemprop="url">QnA</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://satudata.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://satudata.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://satudata.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://satudata.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+    <script type='text/javascript' src='//jd3j7g5z1fqs.com/96/78/7a/96787a1945876b1a9c10f79941441964.js'></script>
+<script type='text/javascript' src='//jd3j7g5z1fqs.com/b4/f1/ef/b4f1ef8dfe59b7fa68754094cf6c8e0e.js'></script>
+  <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4739059,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4739059&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
